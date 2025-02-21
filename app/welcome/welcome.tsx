@@ -4,7 +4,8 @@ import logoLight from "./logo-light.svg";
 export function Welcome() {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
-      TAM 2025 Conference Schedule   </main>
+      <p>TAM 2025 Schedule</p>
+    </main>
   );
 }
 
