@@ -1,0 +1,17 @@
+Dark Blue 
+#263F8A
+
+Light Blue 1
+#C9E3E9
+
+Light Blue 2
+#B3DBE2
+
+Purple
+#8194B7
+
+Yellow 
+#CDB245
+
+Orange
+#CD6137

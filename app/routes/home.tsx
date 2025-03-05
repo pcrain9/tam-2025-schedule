@@ -1,5 +1,7 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
+import NavBar from "~/components/nav-bar";
+import Hero from "~/components/hero";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +11,11 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="flex flex-col gap-4">
+      <Hero />
+      <NavBar />
+      <Welcome />
+    </div>
+  );
 }

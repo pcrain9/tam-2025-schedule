@@ -8,8 +8,7 @@ const accordionProps: AccordionProps = {
 };
 export function Welcome() {
   return (
-    <main className="flex flex-1 items-center flex-col justify-center pt-16 pb-4">
-      <p>TAM 2025 Schedule</p>
+    <main className="flex flex-1 items-center flex-col justify-center">
       <Accordion accordionProps={accordionProps} />
     </main>
   );
