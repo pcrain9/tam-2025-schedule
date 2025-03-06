@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 import NavBar from "~/components/nav-bar";
 import Hero from "~/components/hero";
+import { Outlet } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex flex-col gap-4">
       <Hero />
       <NavBar />
-      <Welcome />
+      <Outlet />
     </div>
   );
 }

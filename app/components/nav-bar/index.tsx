@@ -4,17 +4,16 @@ const activeLinkStyle = "border-b-4 border-blue-500";
 const hoverLinkStyle = "hover:border-b-4 hover:border-blue-500";
 const routes = [
   { title: "Home", path: "/" },
-  { title: "Speaker bios", path: "speaker-bios" },
+  { title: "Speaker bios", path: "/speaker-bios" },
 ];
 
 export default function NavBar() {
   const location = useLocation();
-
   return (
     <nav className="p-4 bg-[#C9E3E9]">
       <ul className="flex gap-8">
         {routes.map((route) => (
-          <li>
+          <li key={route.path}>
             <Link
               className={`${
                 location.pathname === route.path ? activeLinkStyle : ""

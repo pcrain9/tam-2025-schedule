@@ -42,7 +42,7 @@ export function Accordion({
     <div className="flex flex-1 flex-col min-w-full">
       <button
         onClick={showContent}
-        className="w-full flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded"
+        className="w-full font-bold flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded"
       >
         <span>{accordionProps.title}</span>
         <span
@@ -53,7 +53,7 @@ export function Accordion({
         </span>
       </button>
       {content && (
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-4">
           {accordionProps.events.map((event) => (
             <EventComponent key={event.id} eventProps={event} />
           ))}
