@@ -1,4 +1,4 @@
-import tamLogo from "app/assets/images/tam-logo-full.png";
+import tamLogo from "app/assets/icons/tam-logo-full.png";
 
 export default function Hero() {
   return (

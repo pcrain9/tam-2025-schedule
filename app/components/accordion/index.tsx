@@ -53,7 +53,7 @@ export function Accordion({
         </span>
       </button>
       {content && (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mt-4">
           {accordionProps.events.map((event) => (
             <EventComponent key={event.id} eventProps={event} />
           ))}
