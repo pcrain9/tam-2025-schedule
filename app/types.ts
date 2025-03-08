@@ -9,7 +9,7 @@ export type EventType = {
   id: number;
   title: string;
   time: string;
-  speakers?: { name: string; headshot: string }[];
+  speakers?: { name: string; headshot: string; institution: string }[];
   description?: string;
   location?: string;
 };

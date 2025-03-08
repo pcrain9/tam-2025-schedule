@@ -1,9 +1,9 @@
 import type { AccordionProps } from "./types";
 const emptySpeakers = [
-  { name: "", headshot: "/head-shots/.jpg" },
-  { name: "", headshot: "/head-shots/.jpg" },
-  { name: "", headshot: "/head-shots/.jpg" },
-  { name: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
 ];
 export const accordionProps: AccordionProps[] = [
   {
@@ -36,17 +36,28 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Aubrey Nielsen",
             headshot: "/head-shots/aubrey-nielsen.jpg",
+            institution: "Brownsville Historical Association",
           },
-          { name: "Cecilia Abad", headshot: "/head-shots/cecilia-abad.jpg" },
+          {
+            name: "Cecilia Abad",
+            headshot: "/head-shots/cecilia-abad.jpg",
+            institution: "Texas Historical Commission",
+          },
         ],
         time: "9:45am-10:45am",
+        description:
+          "Join the Collections Managers Committee (CMC) Affinity Group to discuss creative solutions. Whether you are a seasoned professional or new to the field, come prepared to share your stories, challenges, and successes in collections while navigating budget constraints.",
       },
       {
         id: 5,
         title: "Affinity Group: TAMEC Roundtable",
         time: "9:45am-10:45am",
         speakers: [
-          { name: "Erin Whitmore", headshot: "/head-shots/erin-whitmore.jpeg" },
+          {
+            name: "Erin Whitmore",
+            institution: "",
+            headshot: "/head-shots/erin-whitmore.jpeg",
+          },
         ],
       },
       {
@@ -57,15 +68,25 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Jennifer Eckermann",
+            institution: "",
             headshot: "/head-shots/jennifer-eckermann.jpg",
           },
           {
             name: "Mallory Laurel",
+            institution: "",
             headshot: "/head-shots/mallory-laurel.jpg",
           },
-          { name: "Erin Shields", headshot: "/head-shots/erin-shields.png" },
+          {
+            name: "Erin Shields",
+            institution: "",
+            headshot: "/head-shots/erin-shields.png",
+          },
 
-          { name: "Shelby Curtis", headshot: "/head-shots/shelby-curtis.jpg" },
+          {
+            name: "Shelby Curtis",
+            institution: "",
+            headshot: "/head-shots/shelby-curtis.jpg",
+          },
         ],
       },
       {
@@ -73,16 +94,26 @@ export const accordionProps: AccordionProps[] = [
         title: "Inspired: Small Museums Share Impact of IMLS Inspire grants",
         time: "9:45am-10:45am",
         speakers: [
-          { name: "Caitlin Clay", headshot: "/head-shots/caitlin-clay.jpg" },
+          {
+            name: "Caitlin Clay",
+            institution: "",
+            headshot: "/head-shots/caitlin-clay.jpg",
+          },
           {
             name: "Marcelo Ramirez Garcia-Rojas",
+            institution: "International Museum of Art and Science",
             headshot: "/head-shots/marcelo-ramirez-garcia-rojas.JPG",
           },
           {
             name: "Melinda McPeek",
+            institution: "",
             headshot: "/head-shots/melinda-mcpeek.gif",
           },
-          { name: "Michael Ables", headshot: "/head-shots/michael-ables.jpeg" },
+          {
+            name: "Michael Ables",
+            institution: "",
+            headshot: "/head-shots/michael-ables.jpeg",
+          },
         ],
       },
       {
@@ -90,12 +121,21 @@ export const accordionProps: AccordionProps[] = [
         title: "From the Magnificent to the Mundane",
         time: "9:45am-10:45am",
         speakers: [
-          { name: "Paul Cato", headshot: "/head-shots/paul-cato.jpg" },
+          {
+            name: "Paul Cato",
+            institution: "",
+            headshot: "/head-shots/paul-cato.jpg",
+          },
           {
             name: "Daniel Carey-Whalen",
+            institution: "",
             headshot: "/head-shots/daniel-carey-whalen.jpg",
           },
-          { name: "Nikki Diller", headshot: "/head-shots/nikki-diller.jpg" },
+          {
+            name: "Nikki Diller",
+            institution: "",
+            headshot: "/head-shots/nikki-diller.jpg",
+          },
         ],
       },
       { id: 9, title: "Break", time: "10:45am-11am" },
@@ -104,16 +144,26 @@ export const accordionProps: AccordionProps[] = [
         title: "Affinity Group: MELT",
         time: "11am-12pm",
         speakers: [
-          { name: "Chris Dyer", headshot: "/head-shots/chris-dyer.JPG" },
+          {
+            name: "Chris Dyer",
+            institution: "",
+            headshot: "/head-shots/chris-dyer.JPG",
+          },
           {
             name: "Rachael A. Nadeau Johnson",
+            institution: "",
             headshot: "/head-shots/rachael-nadeau.jpg",
           },
           {
             name: "Coyote Balderrama Shook",
+            institution: "",
             headshot: "/head-shots/coyote-shook.jpg",
           },
-          { name: "April Love", headshot: "/head-shots/april-love.jpeg" },
+          {
+            name: "April Love",
+            institution: "",
+            headshot: "/head-shots/april-love.jpeg",
+          },
         ],
       },
       {
@@ -123,9 +173,14 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Alysha Richardson",
+            institution: "",
             headshot: "/head-shots/alysha-richardson.jpg",
           },
-          { name: "Steve Baird", headshot: "/head-shots/steven-baird.jpg" },
+          {
+            name: "Steve Baird",
+            institution: "",
+            headshot: "/head-shots/steven-baird.jpg",
+          },
         ],
       },
       {
@@ -133,9 +188,21 @@ export const accordionProps: AccordionProps[] = [
         title: "STEM Lens on History and Culture",
         time: "11am-12pm",
         speakers: [
-          { name: "Erin Frigo", headshot: "/head-shots/erin-shields.png" },
-          { name: "Lauren Siegel", headshot: "/head-shots/lauren-siegel.jpg" },
-          { name: "Morgan Oldham", headshot: "/head-shots/morgan-oldham.jpg" },
+          {
+            name: "Erin Frigo",
+            institution: "",
+            headshot: "/head-shots/erin-shields.png",
+          },
+          {
+            name: "Lauren Siegel",
+            institution: "",
+            headshot: "/head-shots/lauren-siegel.jpg",
+          },
+          {
+            name: "Morgan Oldham",
+            institution: "",
+            headshot: "/head-shots/morgan-oldham.jpg",
+          },
         ],
       },
       {
@@ -145,17 +212,24 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Roula Tsapalas",
+            institution: "",
             headshot: "/head-shots/roula-tsapalas-mccarthy.jpg",
           },
           {
             name: "Natalie George",
+            institution: "",
             headshot: "/head-shots/natalie-george.jpg",
           },
           {
             name: "Angela Kennedy",
+            institution: "",
             headshot: "/head-shots/angela-kennedy.jpg",
           },
-          { name: "Nina Murrell", headshot: "/head-shots/nina-murrell.jpg" },
+          {
+            name: "Nina Murrell",
+            institution: "",
+            headshot: "/head-shots/nina-murrell.jpg",
+          },
         ],
       },
       {
@@ -164,10 +238,19 @@ export const accordionProps: AccordionProps[] = [
           "Listening, Learning, and Working: Five Years into an Alternative Future",
         time: "11am-12pm",
         speakers: [
-          { name: "Craig Farrell", headshot: "/head-shots/craig-farrell.png" },
-          { name: "Joyce Gabiola", headshot: "/head-shots/joyce-gabiola.jpeg" },
+          {
+            name: "Craig Farrell",
+            institution: "",
+            headshot: "/head-shots/craig-farrell.png",
+          },
+          {
+            name: "Joyce Gabiola",
+            institution: "",
+            headshot: "/head-shots/joyce-gabiola.jpeg",
+          },
           {
             name: "Dr. Brian Riedel",
+            institution: "",
             headshot: "/head-shots/brian-riedel.jpeg",
           },
         ],
@@ -184,6 +267,7 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Dr. Jen Benoit-Bryan, Research Director",
+            institution: "",
             headshot: "/head-shots/Jen-Benoit-Bryant.jpg",
           },
         ],
@@ -284,6 +368,8 @@ export const accordionProps: AccordionProps[] = [
         id: 34,
         title: "Evening Event *Invite only*",
         location: "Bullock Museum TEST ONLY",
+        description:
+          "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
         time: "5pm-6pm",
       },
       {
