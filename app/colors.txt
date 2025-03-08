@@ -1,3 +1,14 @@
+{id:,
+title:"",
+time:"",
+speakers:[
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+  { name: "", institution: "", headshot: "/head-shots/.jpg" },
+],
+description: ""},
+
 Dark Blue 
 #263F8A
 
