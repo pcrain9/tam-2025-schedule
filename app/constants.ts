@@ -50,7 +50,7 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Erin Whitmore",
-            institution: "",
+            institution: "The Old Jail Art Center",
             headshot: "/head-shots/erin-whitmore.jpeg",
           },
         ],
