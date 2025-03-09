@@ -951,6 +951,131 @@ export const accordionProps: AccordionProps[] = [
     id: 3,
     title: "Wednesday, April 9th",
     open: false,
-    events: [{ id: 0, title: "Registration", time: "8am-4pm" }],
+    events: [
+      { id: 0, title: "TAM at the Texas State Capitol", time: "9am" },
+      {
+        id: 1,
+        title:
+          "Putting It All Together: Preparing for 2026 at Small History Organizations",
+        time: "9:15am-12:15pm",
+        speakers: [
+          {
+            name: "Melissa Prycer",
+            institution: "Prycer Consulting",
+            headshot: "/head-shots/melissa-prycer.jpg",
+          },
+        ],
+        description:
+          "The U.S. 250th is an opportunity to share history that tells everyone's story and to strengthen the history field. AASLH has developed key resources to help practitioners both conceptually and concretely plan for this commemoration's transformative potential. Attend this workshop to learn more about the Making History at 250 field guide, our new handbook of low-resource programming ideas, and how to effectively apply these tools to your site or organization.",
+      },
+      {
+        id: 2,
+        title:
+          "Full S.T.E.A.M Ahead: How to Foster the S.T.E.A.M. Mindset in Your Museum",
+        time: "9:15am-12:15pm",
+        speakers: [
+          {
+            name: "Kathleen Havens",
+            institution: "Houston Museum of Natural Science",
+            headshot: "/head-shots/kathleen-havens.png",
+          },
+          {
+            name: "Nicole Temple",
+            institution: "Houston Museum of Natural Science",
+            headshot: "/head-shots/nicole-temple.png",
+          },
+        ],
+        description:
+          "Everything is science! Everything is art! Explore how you can incorporate a S.T.E.A.M. mindset into your facility using cross-curricular, multi-modal approaches to help connect all learners to your core subject matter. S.T.E.M. (Science, Technology, Engineering, and Math) has been a buzzword for some time and is often used to help justify field trips or get donors on board with an eye to workforce preparedness. Recently, an A for Art has been added to change the S.T.E.M. to S.T.E.A.M. but, rather than treating art as a science and vice versa, art is often used superficially to convey scientific concepts. Additionally, museums that do not deal directly with science or art as a core subject matter, may find it more difficult to make meaningful connections to S.T.E.A.M. in their programming and displays. Looking at subject matter in a cross-curricular, multi-modal way is fundamental for making all learners feel successful, creating equitable pathways for discovery and creating meaningful connections to content.",
+      },
+      {
+        id: 3,
+        title:
+          "Innovative and Non-Traditional Strategies: Relaunching Your Museum for The Future",
+        time: "9:15am-12:15pm",
+        speakers: [
+          {
+            name: "Abigail Erickson-Torres",
+            institution: "Frontiers of Flight Museum",
+            headshot: "/head-shots/abigail-erickson-torres.jpg",
+          },
+        ],
+        description:
+          "In today's competitive environment, museums must continuously innovate and adapt their fundraising, hiring and social enterprise strategies to ensure sustainable growth and success. This workshop will explore cutting-edge approaches to expanding social enterprise/branding, fundraising operations and hiring practices, focusing on practical examples, audience participation, and diverse perspectives. Attendees will learn how to effectively diversify their funding sources, leverage community partnerships, and implement best hiring practices and new technology-driven tools, implement board diversification strategies and new fundraising solutions and social enterprise opportunities. Guest panelists include; Teresa Heidt, Neiman Marcus; Catharine Recht, Frontiers of Flight Museum; and Allison Allen, GTN Consulting.",
+      },
+      {
+        id: 4,
+        title:
+          "Preserving Moving Images: Building Confidence with Archival Media Formats",
+        time: "9:15am-12:15pm",
+        speakers: [
+          {
+            name: "Ari Negovschi Regalado",
+            institution: "Texas Archive of the Moving Image",
+            headshot: "/head-shots/ari-negovschi-regalado.JPG",
+          },
+        ],
+        description:
+          "Cultural workers face a challenging lack of hands-on educational opportunities to learn the basics of preserving archival audiovisual materials. Our workshop addresses the growing need for media preservation skills among archivists, historians, curators, genealogists, and generally those who work with historic materials. In this 3 hour workshop, participants will learn how to identify common media formats, conduct preservation assessments, and digitize video formats. Attendees will become confident in their ability to identify and preserve analog film and video formats and gain the skills necessary to work with these materials when encountering them in the field. This workshop is hosted by Ari Negovschi Regalado, Technical Director of Texas Archive of the Moving Image. ",
+      },
+      {
+        id: 5,
+        title:
+          "Don't Just Prepare for the Last War: Informed Emergency Preparedness",
+        time: "9:15am-12:15pm",
+        speakers: [
+          {
+            name: "Ellen Cone Busch",
+            institution: "Texas Historical Commission ",
+            headshot: "/head-shots/ellen-cone-busch.png",
+          },
+        ],
+        description:
+          "Emergency preparedness is as much about understanding the risks a museum faces and mitigating those risks as it is about gathering resources to recover from their impacts.  Using risk assessment and after-action review tools, online resources, and active mitigation steps, museums can target their emergency preparedness efforts and resources effectively amid changing staff, climate, and demographics.  THC historic sites speakers will present experiences with some of the most common emergencies with lessons learned, and basic long- and short-range preparedness steps.  This will focus on medical emergencies, grassland fires, and severe weather events.",
+      },
+      {
+        id: 6,
+        title: "Landmarks Tour: Public Art at UT Austin",
+        time: "10am-11:30am",
+        speakers: [
+          {
+            name: "Catherine Whited",
+            institution: "University of Texas at Austin, Landmarks",
+            headshot: "/head-shots/catherine-whited.jpg",
+          },
+        ],
+        description:
+          "Join a walking tour with Landmarks staff to see highlights from UT Austin’s award-winning public art program. Comprised of 50 modern and contemporary works by some of the most admired artists of our time, the collection is one of the most distinguishing features of the main campus. On this tour, you will see installations by artists José Parlá, Raoul Hague, and others, and learn about Landmarks’ process for selecting and funding new projects. Participants will be on foot for the entirety of the tour.LANDMARKS TOUR IMAGE",
+      },
+      {
+        id: 7,
+        title:
+          "Briscoe Center for American History Tour History and Fate: The Goodwins and The 1960s",
+        time: "10am-11:30am",
+        speakers: [
+          {
+            name: "Dr. Sarah Sonner",
+            institution: "Briscoe Center for American History",
+            headshot: "/head-shots/sarah-sonner.png",
+          },
+        ],
+        description:
+          "History and Fate: The Goodwins and the 1960s Join Dr. Sarah Sonner, Associate Director for Curation at the Briscoe Center for American History, for a private guided tour of History and Fate: The Goodwins and the 1960s, an exhibition that presents the events and pivotal figures of the decade through the papers of Doris Kearns Goodwin and Richard N. Goodwin. The exhibition traces the entwining stories of the Goodwins' relationship, their proximity to power, and reflections on a tumultuous era seen in its most intimate moments. On the tour, Dr. Sonner will also talk about working with archival materials and the role Dr. Goodwin played in the creation of the exhibition. Attendees meet at the entrance to the Briscoe Center for American History",
+      },
+      {
+        id: 8,
+        title: "Black Austin History Tour with Visit Austin ",
+        time: "10am-11:30am",
+        speakers: [
+          {
+            name: "Harrison Eppright",
+            institution: "Visit Austin",
+            headshot: "/head-shots/harrison-eppright.jpg",
+          },
+        ],
+        description:
+          "Join celebrated tour guide and native Austinite Harrison Eppright on an exploration of Black Austin history from the city's founding up through school desegregation in the 1970s. The tour will visit important sites of Black Austin history in Central Austin and then explore the East Side, where the Black community consolidated in the twentieth century. Optional: Pay your own way lunch at Hoover’s after the tour. Further info will be sent to registrants.",
+      },
+    ],
   },
 ];

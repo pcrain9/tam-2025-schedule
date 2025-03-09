@@ -1,6 +1,6 @@
 import type { EventType } from "~/types";
 import locationIcon from "app/assets/icons/icons8-location-24.png";
-import speakerIcon from "app/assets/icons/speaker.png";
+import linkIcon from "app/assets/icons/link.png";
 import Headshot from "../headshot";
 
 export function EventComponent({ eventProps }: { eventProps: EventType }) {
@@ -30,7 +30,12 @@ export function EventComponent({ eventProps }: { eventProps: EventType }) {
       <div className="flex ">
         {eventProps.description && <p>{eventProps.description}</p>}
       </div>
-
+      {eventProps.link && (
+        <div className="flex">
+          <img src={linkIcon} className="h-[12px] w-[12px]" />
+          <a href={eventProps.link}>Register here</a>
+        </div>
+      )}
       {eventProps.speakers && (
         <div className="flex gap-8 flex-wrap ">
           {eventProps.speakers.map((speaker) => (

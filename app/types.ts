@@ -10,6 +10,7 @@ export type EventType = {
   title: string;
   time: string;
   speakers?: { name: string; headshot: string; institution: string }[];
+  link?: string;
   description?: string;
   location?: string;
 };
