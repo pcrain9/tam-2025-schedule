@@ -1,6 +1,6 @@
 {id:,
 title:"",
-time:"",
+time:"2:30pm-3:30pm",
 speakers:[
   { name: "", institution: "", headshot: "/head-shots/.jpg" },
   { name: "", institution: "", headshot: "/head-shots/.jpg" },

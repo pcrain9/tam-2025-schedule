@@ -580,7 +580,6 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 34,
         title: "Evening Event *Invite only*",
-        location: "Bullock Museum TEST ONLY",
         description:
           "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
         time: "5pm-6pm",
@@ -740,6 +739,211 @@ export const accordionProps: AccordionProps[] = [
         id: 12,
         title: "Break",
         time: "1pm-1:15pm",
+      },
+      {
+        id: 13,
+        time: "1:15pm-2:15pm",
+        title:
+          "Affinity Group: IDEA - Inclusive and Belonging Leadership: Building Stronger Teams and Organizations",
+        speakers: [
+          {
+            name: "Tonya Veasey",
+            institution: "Open Channels Group+ ",
+            headshot: "/head-shots/tonya-veasey.jpg",
+          },
+        ],
+        description:
+          "Join IDEA (Inclusivity, Diversity, Equity, and Access) for a presentation from special guest speaker Tonya Veasey,  President and CEO of Open Channels Group+.",
+      },
+      {
+        id: 14,
+        time: "1:15pm-2:15pm",
+        title: "Affinity Group: AAG - 'The Color Inside'",
+        speakers: [
+          {
+            name: "Catherine Whited",
+            institution: "University of Texas at Austin, Landmarks",
+            headshot: "/head-shots/catherine-whited.jpg",
+          },
+        ],
+        description:
+          "The Art Affinity Group (AAG) roundtable exploring public art as an educational tool will take place at the “The Color Inside” by James Turrell on the University of Texas at Austin campus. This installation, a work in the Landmark public art collection, is a naked-eye observatory on top of the WCP building, where visitors view the sky through an oculus in the ceiling. Begin the session with a mediation in the space led by Landmark Education Coordinator, Catherine Whited. A roundtable conversation facilitated in part by Whited will follow. ",
+      },
+      {
+        id: 15,
+        title:
+          "'Not Another Furniture Tour!': Connect Historic House Museums with the 21st Century Community",
+        time: "1:15pm-2:15pm",
+        speakers: [
+          {
+            name: "Jamie A. Ross",
+            institution: "Texas Historical Commission",
+            headshot: "/head-shots/jamie-ross.jpg",
+          },
+          {
+            name: "Sara Nezamabadi",
+            institution: "Texas Historical Commission",
+            headshot: "/head-shots/sara-nezamabadi.jpeg",
+          },
+        ],
+        description:
+          "Focusing on historic house museums with varying collections and visitor involvement, this talk looks at options for staff to encourage interest in their sites through programs and exhibits grounded in a reexamination of their objects. Based on current initiatives at art and history museums, we will discuss using collections as a starting place for dialogs that connect audiences with contemporary social and community interests. We hope to provide curators and interpreters with a new framework for looking at material culture by walking through examples using artifacts from the Texas Historical Commission’s Historic Sites.",
+      },
+      {
+        id: 16,
+        title:
+          "Most Expensive Mistakes Museum Administrators Make You Easily Can Avoid        ",
+        time: "1:15pm-2:15pm",
+        speakers: [
+          {
+            name: "Laura Fowler",
+            institution: "Fowler Law Firm",
+            headshot: "/head-shots/laura-fowler.jpeg",
+          },
+        ],
+        description:
+          "Want to make sure your institution follows both the letter and the spirit of laws related to collections and exhibitions? Laura Fowler, from Fowler Law Firm, will discuss how to turn “best intentions” into best practices in ownership, use, and promotion of art and artifacts, sharing what to do before, not after, you discover an issue.",
+      },
+      {
+        id: 17,
+        time: "1:15pm-2:15pm",
+        title:
+          "Bridging Art & Play: Creating Public Spaces for Community, Culture, and Collaboration",
+        speakers: [
+          {
+            name: "Jenny Townzen",
+            institution:
+              "Kreische Brewery & Monument Hill SHS (Texas Historical Commission)",
+            headshot: "/head-shots/jenny-townzen.JPEG",
+          },
+          {
+            name: "Gavin Miculka",
+            institution:
+              "Kreische Brewery & Monument Hill SHS (Texas Historical Commission)",
+            headshot: "/head-shots/gavin-miculka.jpg",
+          },
+          {
+            name: "Trey Crumpton",
+            institution: "Mayborn Museum",
+            headshot: "/head-shots/trey-crumpton.JPG",
+          },
+        ],
+        description:
+          "When designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
+      },
+      { id: 18, title: "Break", time: "2:15pm-2:30pm" },
+      {
+        id: 19,
+        title:
+          "Rising from the Rubble: Community Building in the Wake of Disaster",
+        time: "2:30pm-3:30pm",
+        speakers: [
+          {
+            name: "Wendy Taylor",
+            institution: "Don Harrington Discovery Center",
+            headshot: "/head-shots/wendy-taylor.jpeg",
+          },
+        ],
+        description:
+          "In Feb/March of 2024, the largest wildfire in Texas history ripped through the Panhandle. Feeling helpless, Discovery Center staff identified ways we could think and act outside the box to be a present and helpful member of our community. DCC staff will share strategies for connection and support, from opening their doors to the public to hosting Smokey Bear’s 80th Birthday with our neighboring wildlife rescue. This session will identify ways museums can connect in unique ways with other organizations to support communities during and after loss.",
+      },
+      {
+        id: 20,
+        title: "When Museums and Libraries Collide",
+        time: "2:30pm-3:30pm",
+        speakers: [
+          {
+            name: "Kali Mercy",
+            institution: "Perot Family Collections",
+            headshot: "/head-shots/kali-mercy.JPEG",
+          },
+          {
+            name: "Rachel Lavenda",
+            institution:
+              "University of Pittsburgh Library System, Archives & Special Collections",
+            headshot: "/head-shots/rachel-lavenda.jpg",
+          },
+          {
+            name: "Megan Massanelli",
+            institution: "University of Pittsburgh ",
+            headshot: "/head-shots/megan-massanelli.JPG",
+          },
+        ],
+        description:
+          "On university and college campuses, exhibits in non-museum spaces are not uncommon. Libraries, in particular, are expected to have dedicated exhibit spaces to showcase their collections. While the core mission of academic libraries revolves around access and research, they are also home to rare materials that are only sometimes found in typical museums. These exhibit spaces enhance the library's mission by providing context and insight into the institution's unique holdings",
+      },
+      {
+        id: 21,
+        title:
+          "Who's Got the Buckets: Bailing Yourself out of Situations You Weren't Trained For",
+        time: "2:30pm-3:30pm",
+        speakers: [
+          {
+            name: "Alysha Richardson",
+            institution: "Temple Railroad and Heritage Museum",
+            headshot: "/head-shots/alysha-richardson.jpg",
+          },
+          {
+            name: "Emily Smith",
+            institution: "Temple Children's Museum ",
+            headshot: "/head-shots/emily-smith.jpg",
+          },
+          {
+            name: "Veronica Amoe",
+            institution: "City of Nacogdoches Historic Sites Division",
+            headshot: "/head-shots/veronica-amoe.JPG",
+          },
+          {
+            name: "Logan Baird",
+            institution: "Museum Professional",
+            headshot: "/head-shots/logan-baird.jpg",
+          },
+        ],
+        description:
+          "Every museum leader faces challenges that feel overwhelming—burnout, imposter syndrome, unexpected disasters, and more. How do we navigate these situations, stay in control, and lead effectively when our degrees didn’t prepare us for everything? In this session, we’ll share strategies to prioritize problems, manage crises without reaching burnout, and put difficult moments into perspective. Attendees will learn how to step back, maintain balance, and recognize their role as professionals equipped to handle tough situations with confidence. Join us to gain tools for managing yourself and your team through life’s most difficult moments.",
+      },
+      {
+        id: 22,
+        title:
+          "Playing Detective: Maintaining Outdoor Public Art When Information is Lacking",
+        time: "2:30pm-3:30pm",
+        speakers: [
+          {
+            name: "Kirstin Cutts",
+            institution: "City of San Antonio Department of Arts and Culture",
+            headshot: "/head-shots/kirstin-cutts.jpg",
+          },
+          {
+            name: "Lindsay Hamm Havekost",
+            institution:
+              "Landmarks, the public art program of the University of Texas at Austin",
+            headshot: "/head-shots/lindsay-hamm.jpg",
+          },
+        ],
+        description:
+          "In a perfect world, outdoor artworks would have detailed maintenance manuals full of instructions, photos and advice. In reality, many collections managers must don their detective hats to deduce the best means to maintain particular artworks. In this session, public art professionals will highlight recent maintenance projects which required creative thinking in finding information, determining when to consult outside experts, executing the task, and archiving projects. Topics discussed will include: working with incomplete or inaccessible documentation; assessing and adapting to physical issues; and communication challenges. The presenters will also share multiple pathways to success that were found or forged from these instances, and how such experiences can lead to better records, strong networks of diverse specialists, and longer lifetimes for public artworks.",
+      },
+      {
+        id: 23,
+        time: "3:30pm-5:30pm",
+        title: "TAM Academic Project Showcase Competition",
+        description:
+          "See the future of Texas museum professionals on display at the Bullock Museum’s Austin room, where students will present their research contributions to the museum field before a state-wide audience of scholars and museum professionals.",
+      },
+      {
+        id: 24,
+        time: "3:30pm-5:30pm",
+        title: "Austin Museum Activations",
+        description:
+          "TAM is excited to offer educational activities highlighting Austin’s local institutions. Join us across the street at the Bullock Museum’s Austin room for hands-on engagement experiences.",
+      },
+      {
+        id: 25,
+        time: "5:30pm-8:30pm",
+        title:
+          "Fossils, Friends, and Fantastic Views: An Evening at the Texas Science and Natural History Museum and The Contemporary Austin - Jones Center",
+        description:
+          "Travel across the city for a night of science AND art! Begin your evening with hors d’oeuvres and beverages at the Texas Science and Natural History Museum, generously underwritten by MuseWorks. Next, shuttle to The Contemporary Austin - Jones Center for sunset views, contemporary art, and rooftop refreshments.",
       },
     ],
   },

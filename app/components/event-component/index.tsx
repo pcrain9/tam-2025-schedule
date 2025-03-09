@@ -1,14 +1,17 @@
 import type { EventType } from "~/types";
 import locationIcon from "app/assets/icons/icons8-location-24.png";
 import speakerIcon from "app/assets/icons/speaker.png";
-import Headshot from "../headshot/headshot";
+import Headshot from "../headshot";
 
 export function EventComponent({ eventProps }: { eventProps: EventType }) {
   return (
-    <div className="flex flex-col items-center sm:items-start gap-4 p-6 rounded bg-[#c9e3e9] mx-4 sm:mx-0 shadow-md">
-      <h2 className="font-bold text-lg">{eventProps.title}</h2>
-      {eventProps.description && <p>{eventProps.description}</p>}
-      <div className="flex items-center gap-2 ml-[3px]">
+    <div className="flex flex-col gap-4 p-6 rounded bg-[#c9e3e9] mx-4 sm:mx-0 shadow-md">
+      <div className="flex">
+        <h2 className="font-bold text-lg text-center sm: text-start">
+          {eventProps.title}
+        </h2>
+      </div>
+      <div className="flex items-center  gap-2 ml-[3px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="12"
@@ -24,15 +27,19 @@ export function EventComponent({ eventProps }: { eventProps: EventType }) {
         </svg>
         {eventProps.time}
       </div>
+      <div className="flex ">
+        {eventProps.description && <p>{eventProps.description}</p>}
+      </div>
+
       {eventProps.speakers && (
-        <div className="flex gap-8 flex-wrap">
+        <div className="flex gap-8 flex-wrap ">
           {eventProps.speakers.map((speaker) => (
             <Headshot key={speaker.headshot} speaker={speaker} />
           ))}
         </div>
       )}
       {eventProps.location && (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center  gap-2">
           <img src={locationIcon} className="h-[12px] w-[12px]" />
           <p>{eventProps.location}</p>
         </div>
