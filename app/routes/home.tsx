@@ -1,8 +1,10 @@
 import type { Route } from "./+types/home";
 import Hero from "~/components/hero";
-import { Outlet } from "react-router";
-import Footer from "~/components/footer/footer";
+// import { Outlet } from "react-router";
+import Footer from "~/components/footer";
 import Notifications from "~/components/notifications";
+import { notifications } from "~/constants";
+import Welcome from "./welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -13,12 +15,15 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col gap-4 h-screen">
       <Hero />
-      <Notifications />
+      {notifications.map((notification) => (
+        <Notifications notification={notification} />
+      ))}
       {/* <NavBar /> */}
-      <Outlet />
-      <div style={{ flexGrow: 1 }}></div>
+      {/* <Outlet /> */}
+      <Welcome />
+      <div style={{ flexGrow: 1 }} />
       <Footer />
     </div>
   );

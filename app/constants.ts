@@ -1,5 +1,16 @@
 import type { AccordionProps } from "./types";
 
+export const notifications = [
+  "All programming takes place at the AT&T Hotel and Conference Center unless otherwise noted!",
+  // "another notification",
+];
+export const footerLinks = [
+  { title: "TAM homepage", href: "https://www.texasmuseums.org/" },
+  {
+    title: "TAM conference homepage",
+    href: "https://www.texasmuseums.org/events/tam-2025-austin--bridging-the-past-and-future",
+  },
+];
 export const accordionProps: AccordionProps[] = [
   {
     id: 0,

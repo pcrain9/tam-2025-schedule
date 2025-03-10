@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, type LegacyRef } from "react";
 import type { AccordionProps } from "~/types";
 import { EventComponent } from "../event-component";
 const downArrow = (
@@ -35,7 +35,7 @@ export function Accordion({
   accordionProps: AccordionProps;
 }) {
   const [content, setContent] = useState(false);
-
+  const elRef = useRef<any>(undefined);
   const showContent = () => {
     setContent(!content);
   };
@@ -47,11 +47,14 @@ export function Accordion({
     for (let i = 0; i < 4; i++) {
       if (accordionProps.id === getDate()) {
         setContent(!content);
+        elRef.current.scrollIntoView();
+        setContent(!content);
       }
     }
   }, []);
-  return (
-    <div className="flex flex-1 flex-col min-w-full">
+
+  const accordionEl = (
+    <div className="flex flex-1 flex-col min-w-full" ref={elRef}>
       <button
         onClick={showContent}
         className="w-full font-bold flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded"
@@ -73,4 +76,5 @@ export function Accordion({
       )}
     </div>
   );
+  return accordionEl;
 }
