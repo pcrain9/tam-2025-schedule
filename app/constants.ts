@@ -7,7 +7,13 @@ export const accordionProps: AccordionProps[] = [
     open: false,
     events: [
       { id: 0, title: "Conference Registration", time: "5pm-6pm" },
-      { id: 1, title: "Opening Reception", time: "6pm-8pm" },
+      {
+        id: 1,
+        title: "Opening Reception",
+        description:
+          "Evening at the LBJ Presidential Library with special access to The Briscoe Center for American History",
+        time: "6pm-8pm",
+      },
     ],
   },
   {

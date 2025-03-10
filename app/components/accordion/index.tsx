@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { AccordionProps } from "~/types";
 import { EventComponent } from "../event-component";
 const downArrow = (
@@ -35,9 +35,21 @@ export function Accordion({
   accordionProps: AccordionProps;
 }) {
   const [content, setContent] = useState(false);
+
   const showContent = () => {
     setContent(!content);
   };
+  const getDate = () => {
+    const date = new Date();
+    return date.getDay();
+  };
+  useEffect(() => {
+    for (let i = 0; i < 4; i++) {
+      if (accordionProps.id === getDate()) {
+        setContent(!content);
+      }
+    }
+  }, []);
   return (
     <div className="flex flex-1 flex-col min-w-full">
       <button
