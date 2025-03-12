@@ -16,7 +16,7 @@ export default function Notifications({
           <p className="text-white">{notification}</p>
           <button
             onClick={close}
-            className="text-white font-bold border-solid border-white border-[2px] p-2 rounded"
+            className="text-white font-bold border-solid border-white border-[2px] p-4 size-[24px] rounded-[50%] flex justify-center items-center"
           >
             X{/* <img src={closeIcon} /> */}
           </button>
