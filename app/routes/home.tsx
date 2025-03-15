@@ -5,6 +5,7 @@ import Footer from "~/components/footer";
 import Notifications from "~/components/notifications";
 import { notifications } from "~/constants";
 import Welcome from "./welcome";
+import { useEffect } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,11 +15,15 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
+  // just in case announcements are needed
+  useEffect(() => {
+    alert("this is just a test!");
+  }, []);
   return (
     <div className="flex flex-col gap-4 h-screen">
       <Hero />
-      {notifications.map((notification) => (
-        <Notifications notification={notification} />
+      {notifications.map((notification, index) => (
+        <Notifications key={index} notification={notification} />
       ))}
       {/* <NavBar /> */}
       {/* <Outlet /> */}

@@ -3,9 +3,19 @@ import locationIcon from "app/assets/icons/icons8-location-24.png";
 import linkIcon from "app/assets/icons/link.png";
 import Headshot from "../headshot";
 
-export function EventComponent({ eventProps }: { eventProps: EventType }) {
+export function EventComponent({
+  eventProps,
+  finalEvent,
+}: {
+  eventProps: EventType;
+  finalEvent: boolean;
+}) {
   return (
-    <div className="flex flex-col gap-4 p-6 rounded bg-[#c9e3e9] mx-4 sm:mx-0 shadow-md">
+    <div
+      className={`flex flex-col gap-4 p-6 rounded bg-[#c9e3e9] mx-4 sm:mx-0 shadow-md ${
+        finalEvent && "mb-4"
+      }`}
+    >
       <div className="flex">
         <h2 className="font-bold text-lg text-center sm: text-start">
           {eventProps.title}

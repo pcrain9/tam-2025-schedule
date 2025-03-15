@@ -1,5 +1,4 @@
 import { useState } from "react";
-import closeIcon from "../../assets/icons/close.png";
 export default function Notifications({
   notification,
 }: {
@@ -16,9 +15,9 @@ export default function Notifications({
           <p className="text-white">{notification}</p>
           <button
             onClick={close}
-            className="text-white font-bold border-solid border-white border-[2px] p-4 size-[24px] rounded-[50%] flex justify-center items-center"
+            className="text-white hover:text-[#CD6137] hover:bg-white font-bold border-solid border-white border-[2px] p-4 size-[24px] rounded-[50%] flex justify-center items-center"
           >
-            X{/* <img src={closeIcon} /> */}
+            X
           </button>
         </div>
       )}

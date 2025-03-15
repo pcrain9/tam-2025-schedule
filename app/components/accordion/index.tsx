@@ -60,20 +60,23 @@ export function Accordion({
         className="w-full font-bold flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded"
       >
         <span>{accordionProps.title}</span>
-        <span
-          id="icon-1"
-          className="text-slate-800 transition-transform duration-300"
-        >
+        <span id="icon-1" className="text-slate-800">
           {content ? upArrow : downArrow}
         </span>
       </button>
-      {content && (
-        <div className="flex flex-col gap-4 mt-4">
-          {accordionProps.events.map((event) => (
-            <EventComponent key={event.id} eventProps={event} />
-          ))}
-        </div>
-      )}
+      <div
+        className={`flex flex-col gap-4 mt-4 transition-[max-height] ease-in-out duration-500 overflow-hidden ${
+          content ? "max-h-full" : "max-h-0"
+        }`}
+      >
+        {accordionProps.events.map((event, index) => (
+          <EventComponent
+            key={event.id}
+            eventProps={event}
+            finalEvent={index === accordionProps.events.length - 1}
+          />
+        ))}
+      </div>
     </div>
   );
   return accordionEl;

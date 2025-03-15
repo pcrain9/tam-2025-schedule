@@ -1,11 +1,22 @@
 export default function OutboundLink({
   link,
+  index,
 }: {
   link: { title: string; href: string };
+  index: number;
 }) {
   return (
-    <a href={link.href} className="font-bold text-[#263F8A] hover:underline">
-      {link.title}
-    </a>
+    <>
+      {index === 0 && <p>|</p>}
+      <a
+        href={link.href}
+        rel="noopener noreferrer"
+        target="_blank"
+        className="font-bold hover:underline mr-4"
+      >
+        {link.title}
+      </a>
+      <p>|</p>
+    </>
   );
 }

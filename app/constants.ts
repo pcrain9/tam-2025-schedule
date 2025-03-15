@@ -5,10 +5,18 @@ export const notifications = [
   // "another notification",
 ];
 export const footerLinks = [
-  { title: "TAM homepage", href: "https://www.texasmuseums.org/" },
+  { title: "TAM Homepage", href: "https://www.texasmuseums.org/" },
   {
-    title: "TAM conference homepage",
+    title: "TAM Conference Homepage",
     href: "https://www.texasmuseums.org/events/tam-2025-austin--bridging-the-past-and-future",
+  },
+  {
+    title: "Workshops and Tours",
+    href: "https://www.texasmuseums.org/news/tam-2025-annual-meeting-registration-add-ons",
+  },
+  {
+    title: "Donate to TAM",
+    href: "https://www.texasmuseums.org/products/donate-to-tam",
   },
 ];
 export const accordionProps: AccordionProps[] = [
