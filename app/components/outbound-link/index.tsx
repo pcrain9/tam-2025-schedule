@@ -12,7 +12,7 @@ export default function OutboundLink({
         href={link.href}
         rel="noopener noreferrer"
         target="_blank"
-        className="font-bold hover:underline mr-4"
+        className="font-bold hover:underline mr-0 sm:mr-4"
       >
         {link.title}
       </a>
