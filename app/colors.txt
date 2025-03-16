@@ -21,6 +21,9 @@ Light Blue 2
 Purple
 #8194B7
 
+PINK 
+#CAB1D4
+
 Yellow 
 #CDB245
 

@@ -21,7 +21,7 @@ export function EventComponent({
           {eventProps.title}
         </h2>
       </div>
-      <div className="flex items-center  gap-2 ml-[3px]">
+      <div className="flex items-center  gap-2 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="12"
@@ -37,13 +37,25 @@ export function EventComponent({
         </svg>
         {eventProps.time}
       </div>
-      <div className="flex ">
-        {eventProps.description && <p>{eventProps.description}</p>}
-      </div>
+      {eventProps.location && (
+        <div className="flex items-center gap-2">
+          <img src={locationIcon} className="h-[14px] w-[12px]" />
+          <p>{eventProps.location}</p>
+        </div>
+      )}
+
+      {eventProps.description && <p>{eventProps.description}</p>}
       {eventProps.link && (
-        <div className="flex">
+        <div className="flex gap-2 items-center">
           <img src={linkIcon} className="h-[12px] w-[12px]" />
-          <a href={eventProps.link}>Register here</a>
+          <a
+            href={eventProps.link}
+            className="font-bold underline"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Register here
+          </a>
         </div>
       )}
       {eventProps.speakers && (
@@ -51,12 +63,6 @@ export function EventComponent({
           {eventProps.speakers.map((speaker) => (
             <Headshot key={speaker.headshot} speaker={speaker} />
           ))}
-        </div>
-      )}
-      {eventProps.location && (
-        <div className="flex items-center  gap-2">
-          <img src={locationIcon} className="h-[12px] w-[12px]" />
-          <p>{eventProps.location}</p>
         </div>
       )}
     </div>

@@ -16,9 +16,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   // just in case announcements are needed
-  useEffect(() => {
-    alert("this is just a test!");
-  }, []);
+  // useEffect(() => {
+  //   alert("this is just a test!");
+  // }, []);
   return (
     <div className="flex flex-col gap-4 h-screen">
       <Hero />

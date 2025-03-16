@@ -1,7 +1,7 @@
 import type { AccordionProps } from "./types";
 
 export const notifications = [
-  "All programming takes place at the AT&T Hotel and Conference Center unless otherwise noted!",
+  "All programming takes place at the AT&T Hotel and Conference Center - Zlotnik Ballroom unless otherwise noted!",
   // "another notification",
 ];
 export const footerLinks = [
@@ -25,10 +25,17 @@ export const accordionProps: AccordionProps[] = [
     title: "Sunday, April 6th",
     open: false,
     events: [
-      { id: 0, title: "Conference Registration", time: "5pm-6pm" },
+      {
+        id: 0,
+        title: "Conference Registration",
+        location: "LBJ Presidential Library",
+        time: "5pm-6pm",
+      },
       {
         id: 1,
         title: "Opening Reception",
+        location:
+          "LBJ Presidential Library and the Briscoe Center for American History",
         description:
           "Evening at the LBJ Presidential Library with special access to The Briscoe Center for American History",
         time: "6pm-8pm",
@@ -40,37 +47,51 @@ export const accordionProps: AccordionProps[] = [
     title: "Monday, April 7th",
     open: false,
     events: [
-      { id: 0, title: "Conference Registration", time: "8am-4:30pm" },
-      { id: 1, title: "Breakfast with Exhibitors", time: "8am-9am" },
+      {
+        id: 0,
+        title: "Conference Registration",
+        location: "Zlotnik Pre-Function",
+        time: "8am-4:30pm",
+      },
+      {
+        id: 1,
+        title: "Breakfast with Exhibitors",
+        location: "Zlotnik Pre-Function",
+        time: "8am-9am",
+      },
       {
         id: 2,
         title: "Opening Remarks and TAM 50th Anniversary Retrospective",
+        location: "Salons 3 & 4",
         time: "8:30am-9:30am",
       },
       { id: 3, title: "Break", time: "9:30am-9:45am" },
       {
         id: 4,
         title:
-          "Affinity Group: CMC - Creative Solutions for Museum Preservation ",
+          "Roundtable with the Historic Sites and Houses Affinity Group (HSHAG)",
+        time: "9:45am-10:45am",
+        location: "Salons 3 & 4",
+        description:
+          "Join the Historic Sites and Houses Affinity Group (HSHAG) for a dynamic roundtable session focused on the unique challenges and opportunities of preserving and operating historic sites and houses across Texas. This interactive discussion provides attendees a chance to ask questions and share ideas on topics such as preservation, maintenance, operations, and programming. Whether you're tackling structural concerns, engaging visitors, or developing innovative programs, this session offers a collaborative space to exchange insights, strategies, and solutions with fellow professionals dedicated to keeping Texas history alive.",
         speakers: [
           {
-            name: "Aubrey Nielsen",
-            headshot: "/head-shots/aubrey-nielsen.jpg",
-            institution: "Brownsville Historical Association",
+            name: "Alysha Richardson",
+            institution: "Temple Railroad and Heritage Museum",
+            headshot: "/head-shots/alysha-richardson.jpg",
           },
           {
-            name: "Cecilia Abad",
-            headshot: "/head-shots/cecilia-abad.jpg",
-            institution: "Texas Historical Commission",
+            name: "Steve Baird",
+            institution: "Klein Historical Foundation",
+            headshot: "/head-shots/steven-baird.jpg",
           },
         ],
-        time: "9:45am-10:45am",
-        description:
-          "Join the Collections Managers Committee (CMC) Affinity Group to discuss creative solutions. Whether you are a seasoned professional or new to the field, come prepared to share your stories, challenges, and successes in collections while navigating budget constraints.",
       },
       {
         id: 5,
-        title: "Affinity Group: TAMEC Roundtable",
+        title:
+          "Educator Roundtable with the TAM Educators Committee (TAMEC) Affinity Group",
+        location: "Salons 3 & 4",
         time: "9:45am-10:45am",
         speakers: [
           {
@@ -79,11 +100,14 @@ export const accordionProps: AccordionProps[] = [
             headshot: "/head-shots/erin-whitmore.jpeg",
           },
         ],
+        description:
+          "Museum educators: looking for an opportunity for ideas and advice in a more informal, one-on-one format? Join us for an idea exchange/ expert advice in a variety of Educator Interest Areas—Speed-date style! Participants at this year's Educator Roundtable will spend 10 minutes or less in small-group discussion of each of the following: ideas for docent & volunteer corps recruitment, post-visit activities (inexpensive and meaningful extensions) idea-share(steal), successful teen programming, hosting classroom teacher in-services at your institution, and community 'friend-raisers' event/programs/collaborations.",
       },
       {
         id: 6,
         title:
           "There's No 'I' in Museum: Using Heritage Tourism to Teach Collaboration",
+        location: "Salon 1",
         time: "9:45am-10:45am",
         description:
           "This session highlights the Texas Historical Commission’s (THC) unique approach to implementing the Smithsonian’s Museum on Main Street (MoMS) program, a traveling exhibition program serving rural towns across America. Exploring the program's heritage tourism potential, the THC designed its MoMS training to advance interdisciplinary partnerships and emphasize the strategic alignment of storytelling, experience development, and promotion. This approach made room for different kinds of community organizations and their unique skills. More importantly, it treated capacity-building, specifically in regard to the cultivation of robust heritage landscapes, as a community-wide or regional aim, not just an organizational one. Attendees will hear from THC staff and past MoMS participants on successful partnerships, challenges, and lessons learned. Key takeaways include strategies for regional collaboration, understanding different organizational needs, and best practices for heritage tourism initiatives.",
@@ -117,6 +141,7 @@ export const accordionProps: AccordionProps[] = [
         description:
           "The IMLS Inspire grant for small museums funds projects between $5,000 and $25,000 requiring no matching funds and those projects requesting funding between $25,001 and $75,000 do require a 1:1 match in two categories: Lifelong Learning and Collections Access and Stewardship. These funds can be transformative for small museums enabling giant leaps forward, incremental change, and exploration of new initiatives that would otherwise be unattainable due to limited resources. Inspire grant recipients share their experiences and the impact these project-specific grant funds have made on their museums. Participants will gain insights on the Inspire grant process through peer-to-peer learning from these case studies.",
         time: "9:45am-10:45am",
+        location: "Salon 5",
         speakers: [
           {
             name: "Caitlin Clay",
@@ -144,6 +169,7 @@ export const accordionProps: AccordionProps[] = [
         id: 8,
         title: "From the Magnificent to the Mundane",
         time: "9:45am-10:45am",
+        location: "Salon 6",
         speakers: [
           {
             name: "Paul Cato",
@@ -167,8 +193,10 @@ export const accordionProps: AccordionProps[] = [
       { id: 9, title: "Break", time: "10:45am-11am" },
       {
         id: 10,
-        title: "Affinity Group: MELT",
+        title:
+          "Museum Emerging Leaders of Texas (MELT) Roundtable with the MELT Affinity Group",
         time: "11am-12pm",
+        location: "Salons 3 & 4",
         speakers: [
           {
             name: "Chris Dyer",
@@ -196,26 +224,29 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 11,
-        title: "Affinity Group: HSHAG",
-        time: "11am-12pm",
-        description:
-          "Join the Historic Sites and Houses Affinity Group (HSHAG) for a dynamic roundtable session focused on the unique challenges and opportunities of preserving and operating historic sites and houses across Texas. This interactive discussion provides attendees a chance to ask questions and share ideas on topics such as preservation, maintenance, operations, and programming. Whether you're tackling structural concerns, engaging visitors, or developing innovative programs, this session offers a collaborative space to exchange insights, strategies, and solutions with fellow professionals dedicated to keeping Texas history alive.",
+        title:
+          "Creative Solutions for Museum Preservation by the Collections Managers Committee (CMC) Affinity Group",
+        location: "Salons 3 & 4",
         speakers: [
           {
-            name: "Alysha Richardson",
-            institution: "Temple Railroad and Heritage Museum",
-            headshot: "/head-shots/alysha-richardson.jpg",
+            name: "Aubrey Nielsen",
+            headshot: "/head-shots/aubrey-nielsen.jpg",
+            institution: "Brownsville Historical Association",
           },
           {
-            name: "Steve Baird",
-            institution: "Klein Historical Foundation",
-            headshot: "/head-shots/steven-baird.jpg",
+            name: "Cecilia Abad",
+            headshot: "/head-shots/cecilia-abad.jpg",
+            institution: "Texas Historical Commission",
           },
         ],
+        description:
+          "Join the Collections Managers Committee (CMC) Affinity Group to discuss creative solutions. Whether you are a seasoned professional or new to the field, come prepared to share your stories, challenges, and successes in collections while navigating budget constraints.",
+        time: "11am-12pm",
       },
       {
         id: 12,
         title: "STEM Lens on History and Culture",
+        location: "Salon 1",
         time: "11am-12pm",
         description:
           "This panel will provide museum and cultural site education and interpretation staff with tools to create STEM and STEAM programming successfully. Panelists from the Texas Historical Commission describe, analyze and assess their STEM and STEAM programming with the intention of providing inspiration and support for participants who wish to incorporate STEM and STEAM concepts in educational programming. Panelists share images, stories, successes, and lessons from programs they created or helped to create at their historical and cultural sites. They offer a short, easy hands-on example for participants to experience the exploration of STEM and STEAM concepts in a historical and cultural setting.",
@@ -230,11 +261,6 @@ export const accordionProps: AccordionProps[] = [
             institution: "MathHappens Foundation",
             headshot: "/head-shots/lauren-siegel.jpg",
           },
-          // {
-          //   name: "Rachel Flinn",
-          //   institution: "Texas Parks and Wildlife",
-          //   headshot: "/head-shots/rachel-flinn.jpg",
-          // },
           {
             name: "Morgan Oldham",
             institution: "The Alamo",
@@ -245,6 +271,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 13,
         title: "Designing Community Spaces in Historic Buildings ",
+        location: "Salon 5",
         description:
           "How is your museum balancing the use of spaces to accommodate community gatherings, programs, and exhibits? Museum directors from Flower Hill Center in Austin and Heart of the Hills Heritage Center in Kerrville and Chief Operating Officer/Partner at Quatrefoil Associates exhibit design firm will share ideas about designing flexible spaces at museums in historic buildings that balance the use of their unique and limited spaces to offer programs and exhibitions. Each unique perspective will provide insight into how small museums are taking different approaches to create vibrant hubs for their communities.",
         time: "11am-12pm",
@@ -276,6 +303,7 @@ export const accordionProps: AccordionProps[] = [
         id: 14,
         title:
           "Listening, Learning, and Working: Five Years into an Alternative Future",
+        location: "Salon 6",
         time: "11am-12pm",
         speakers: [
           {
@@ -301,11 +329,13 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 15,
         title: "Lunch Buffet",
+        location: "Zlotnik Ballroom",
         time: "12pm-12:15pm",
       },
       {
         id: 16,
         title: "Lunch and Keynote",
+        location: "Salons 3 & 4",
         time: "12:15pm-1pm",
         description:
           "This keynoye address explores how to leverage data in the museum field to inform strategic change, foster equity and inclusion, and support advocacy efforts. Starting with grounding in recent trends in data across the sector, we’ll discuss easy options for data collection around a range of topics, share available sources of data, and discuss how they can be activated.  Case studies will be woven into the discussion to illustrate how museums of various types and sizes are leveraging research and data as helpful tools for their work.",
@@ -325,10 +355,11 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 18,
         title:
-          "Affinity Group: TAMEL - Making the Most of Your Earned Income - Let’s Hear Your 2 Cents!",
+          "Making the Most of Your Earned Income - Let's Hear Your 2 Cents! with the TAM Executive Leader (TAMEL) Affinity Group",
         time: "1:15pm-2:15pm",
+        location: "Salon 6",
         description:
-          "TAM Executive Leaders (TAMEL) roundtable meets for discussion topics relevant to museum directors. This session is only open to Executive Directors and CEOs. ",
+          "Explore innovative ways to maximize revenue while staying mission-driven with the TAM Executive Leaders (TAMEL) Affinity Group. Bring your ideas, challenges, and best practices—we want to hear your two cents! This session is only open to Executive Directors and CEOs. ",
         speakers: [
           {
             name: "Liz Jackson",
@@ -340,6 +371,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 19,
         title: "Starting Conversations About Volunteer Best Practices ",
+        location: "Salon 1",
         speakers: [
           {
             name: "Arpil Love",
@@ -360,6 +392,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 20,
         title: "Working Together: Raising the Profile of Black Austin History",
+        location: "Salons 3 & 4",
         speakers: [
           {
             name: "Dr. Tara A. Dudley",
@@ -394,6 +427,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 21,
         title: "Collection Clues: Identifying Photographic Processes",
+        location: "Salon 5",
         speakers: [
           {
             name: "Alexandra Vanderhider Cuthbert",
@@ -412,7 +446,8 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 23,
-        title: "Speed Networking",
+        title: "Speed Networking sponsored by PrimeSite Web",
+        location: "Salons 3 & 4",
         description:
           "Bring your business cards and your badge for a chance to meet fellow TAM Annual Meeting attendees. Through rapid-fire facilitated conversations, share what you’re doing, where you’re from, what you’re excited about, or what you want help with. Come ready to talk—the time goes quickly!",
         time: "2:30pm-3:15pm",
@@ -425,6 +460,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 25,
         title: "Preparing For a Website Redesign: Where the Heck Do You Start?",
+        location: "Salons 3 & 4",
         description:
           "In 2014, the Bullock Museum revamped its website with a custom CMS. As our strategy evolved and our CMS became unsustainable, we knew it was time for an overhaul. This session will share our journey of developing a content strategy and preparing for a website redesign. We’ll discuss engaging staff through a strategic planning framework and surveys, leveraging data from Google Analytics, and navigating the challenges we faced along the way. Participants will gain practical skills and ideas to employ in their own website and content strategy projects.",
         speakers: [
@@ -445,6 +481,7 @@ export const accordionProps: AccordionProps[] = [
         id: 26,
         title:
           "Be a Solution, Not Just a Resource: Meeting Schools and Communities Where They Are",
+        location: "Salon 1",
         description:
           "Join the Discovery Center Collective to explore a community-driven approach to education and outreach. Learn how we expanded summer camps to low-income schools, brought museum experiences directly to students, and hosted inclusive events for neurodiverse individuals. Discover strategies for fostering inclusivity, building partnerships, and meeting evolving needs. Engage in group brainstorming to generate solutions for your community.",
         speakers: [
@@ -460,6 +497,7 @@ export const accordionProps: AccordionProps[] = [
         id: 27,
         title:
           "Bridging the Gap from Idea to Reality: How the Briscoe Center for American History Solved Exhibit Challenges Using Practical Solutions",
+        location: "Salon 5",
         speakers: [
           {
             name: "Dr. Sarah Sonner",
@@ -490,6 +528,7 @@ export const accordionProps: AccordionProps[] = [
         id: 28,
         title:
           "Small, but Mighty! Corporate Sponsorship Programs for Small Organizations",
+        location: "Salon 6",
         description:
           "Are you looking to launch or build your corporate sponsorship program, but not sure how to start? Get some practical ideas on how to identify, attract, and steward corporate donors. We’ll also cover the bonus benefits that corporate partners can bring to your mission – including prospective board members, volunteers, in-kind services, and publicity. The discussion will be intended for implementation by organizations with few or no development staff.",
         speakers: [
@@ -505,6 +544,7 @@ export const accordionProps: AccordionProps[] = [
         id: 29,
         title:
           "Small Spaces Big Ideas: Interpreting Sensitive Content Through the Eyes of Children",
+        location: "Salon 1",
         speakers: [
           {
             name: "Chris Frison",
@@ -539,6 +579,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 30,
         title: "Innovative Programming: Filling the Gap",
+        location: "Salon 5",
         speakers: [
           {
             name: "Shae Nawoj",
@@ -564,6 +605,7 @@ export const accordionProps: AccordionProps[] = [
         id: 31,
         title:
           "Demystifying Collections Insurance: How This Valuable Tool Can Help Safeguard Your Museum’s Mission",
+        location: "Salon 6",
         speakers: [
           {
             name: "Nonie Tompkins",
@@ -584,6 +626,7 @@ export const accordionProps: AccordionProps[] = [
         id: 32,
         title:
           "Texas and America's 250th Anniversary - Sponsored by The Bullock Museum",
+        location: "Salons 3 & 4",
         speakers: [
           {
             name: "Margaret Koch",
@@ -598,20 +641,26 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 33,
         title: "Exhibitor Reception",
+        location: "Zlotnik Pre-Function",
         description:
           "Join us for a lively evening of networking, featuring an Austin-inspired cocktail and the latest innovations from our exhibitors. Connect with industry peers, explore new services and solutions, and don’t forget to visit each exhibitor for a chance to win a free registration to the TAM 2026 Annual Conference!",
         time: "4:30pm-5pm",
       },
       {
         id: 34,
-        title: "Evening Event *Invite only*",
+        title: "Directors and CEOs Reception hosted by the Harry Ransom Center",
+        location: "Harry Ransom Center",
         description:
-          "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
+          "Museum leaders and current and past TAM Councilors from across the state mix and mingle during this special VIP Invitation Only event. The Harry Ransom Center exhibitions will be open to VIP invitees during the reception.",
         time: "5pm-6pm",
       },
       {
         id: 35,
-        title: "Evening Event",
+        title:
+          "50th Birthday Bash at the Bullock Texas State History Museum & Capitol Mall",
+        location: "Bullock Museum and Capitol Mall Sites",
+        description:
+          "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
         time: "5pm-8pm",
       },
     ],
@@ -621,12 +670,23 @@ export const accordionProps: AccordionProps[] = [
     title: "Tuesday, April 8th",
     open: false,
     events: [
-      { id: 0, title: "Conference Registration", time: "8am-3:30pm" },
-      { id: 1, title: "Breakfast with Exhibitors", time: "8am-9am" },
+      {
+        id: 0,
+        title: "Conference Registration",
+        time: "8am-3:30pm",
+        location: "Zlotnik Pre-Function",
+      },
+      {
+        id: 1,
+        title: "Breakfast with Exhibitors",
+        time: "8am-9am",
+        location: "Zlotnik Pre-Function",
+      },
       {
         id: 2,
         title: "TAM Annual Business Meeting",
         time: "8:15am-9am",
+        location: "Salons 3 & 4",
         description:
           "Join us as TAM introduces its newest Council members and holds its annual business meeting, where members will review the organization’s top priorities and direction for 2026 and beyond.",
       },
@@ -634,6 +694,7 @@ export const accordionProps: AccordionProps[] = [
         id: 3,
         title: "TAM Awards Ceremony",
         time: "9:15am-10am",
+        location: "Salons 3 & 4",
         description:
           "Celebrate the best of Texas museums with us! This is a chance to recognize museum industry award winners for their incredible work. Featured winners include the Jo Stewart Randel Outstanding Trustee Award, Jack Nokes Outstanding Service Award, Mitchell A. Wilder Publication Design Award Competition, the Texas Association of Museums Media Innovation & Excellence Awards (TAMMIEs), and the inaugural Texas Association of Museums Advocacy Award.",
       },
@@ -647,6 +708,7 @@ export const accordionProps: AccordionProps[] = [
         id: 5,
         title:
           "Informed Decisions: Using Museum Visitor Data to Envision, Plan, and Make Change",
+        location: "Salons 3 & 4",
         time: "10:30am-11:30am",
         speakers: [
           {
@@ -671,6 +733,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 6,
         title: "On the Road: Teacher Travel Professional Development",
+        location: "Salon 1",
         time: "10:30am-11:30am",
         speakers: [
           {
@@ -684,7 +747,7 @@ export const accordionProps: AccordionProps[] = [
             headshot: "/head-shots/alexander-rivard.jpg",
           },
           {
-            name: "Heike (Hika) Jenkins",
+            name: "Heike Jenkins",
             institution: "Texas Historical Commission",
             headshot: "/head-shots/heike-jenkins.jpg",
           },
@@ -696,6 +759,7 @@ export const accordionProps: AccordionProps[] = [
         id: 7,
         title:
           "Transformations: Physically and Intellectually Moving Museum Collections",
+        location: "Salon 5",
         time: "10:30am-11:30am",
         speakers: [
           {
@@ -728,22 +792,26 @@ export const accordionProps: AccordionProps[] = [
         id: 8,
         title: "Museum Hot Seat: What’s on Your Mind?",
         time: "10:30am-11:30am",
+        location: "Salon 6",
         description:
           "What’s on everyone’s mind in the museum world? You tell us! In this interactive session, we’re tackling the most pressing topics submitted anonymously by TAM members—no question is off-limits. A moderator will guide the discussion, diving into the challenges, trends, and hot topics that matter most to you. Whether you’re here to listen, share insights, or get advice, come ready to talk and engage in a dynamic conversation shaped by your peers.",
       },
       {
         id: 9,
         title: "Networking & Exhibitor Break",
+        location: "Zlotnik Pre-Function",
         time: "11:30am-12pm",
       },
       {
         id: 10,
         title: "Lunch Buffet",
+        location: "Zlotnik Pre-Function",
         time: "12pm-12:15pm",
       },
       {
         id: 11,
         title: "Lunch and Keynote: Creative Aging Comes of Age - In Museums",
+        location: "Salons 3 & 4",
         time: "12:15pm-1pm",
         speakers: [
           {
@@ -768,8 +836,9 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 13,
         time: "1:15pm-2:15pm",
+        location: "Salons 3 & 4",
         title:
-          "Affinity Group: IDEA - Inclusive and Belonging Leadership: Building Stronger Teams and Organizations",
+          "Inclusive and Belonging Leadership: Building Stronger Teams and Organizations with the Inclusivity, Diversity, Equity, and Accessibility (IDEA) Affinity Group",
         speakers: [
           {
             name: "Tonya Veasey",
@@ -783,7 +852,9 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 14,
         time: "1:15pm-2:15pm",
-        title: "Affinity Group: AAG - 'The Color Inside'",
+        title: "'The Color Inside' with the Art Affinity Group (AAG)",
+        location:
+          "Meet in the AT&T Center lobby at 1:15 to travel as a group to the Landmark public art installation.",
         speakers: [
           {
             name: "Catherine Whited",
@@ -798,6 +869,7 @@ export const accordionProps: AccordionProps[] = [
         id: 15,
         title:
           "'Not Another Furniture Tour!': Connect Historic House Museums with the 21st Century Community",
+        location: "Salon 1",
         time: "1:15pm-2:15pm",
         speakers: [
           {
@@ -817,7 +889,8 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 16,
         title:
-          "Most Expensive Mistakes Museum Administrators Make You Easily Can Avoid        ",
+          "Most Expensive Mistakes Museum Administrators Make You Easily Can Avoid",
+        location: "Salon 5",
         time: "1:15pm-2:15pm",
         speakers: [
           {
@@ -834,6 +907,7 @@ export const accordionProps: AccordionProps[] = [
         time: "1:15pm-2:15pm",
         title:
           "Bridging Art & Play: Creating Public Spaces for Community, Culture, and Collaboration",
+        location: "Salon 6",
         speakers: [
           {
             name: "Jenny Townzen",
@@ -854,7 +928,7 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         description:
-          "When designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
+          "WWhen designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
       },
       { id: 18, title: "Break", time: "2:15pm-2:30pm" },
       {
@@ -862,6 +936,7 @@ export const accordionProps: AccordionProps[] = [
         title:
           "Rising from the Rubble: Community Building in the Wake of Disaster",
         time: "2:30pm-3:30pm",
+        location: "Salon 1",
         speakers: [
           {
             name: "Wendy Taylor",
@@ -876,6 +951,7 @@ export const accordionProps: AccordionProps[] = [
         id: 20,
         title: "When Museums and Libraries Collide",
         time: "2:30pm-3:30pm",
+        location: "Salons 3 & 4",
         speakers: [
           {
             name: "Kali Mercy",
@@ -902,6 +978,7 @@ export const accordionProps: AccordionProps[] = [
         title:
           "Who's Got the Buckets: Bailing Yourself out of Situations You Weren't Trained For",
         time: "2:30pm-3:30pm",
+        location: "Salon 6",
         speakers: [
           {
             name: "Alysha Richardson",
@@ -932,6 +1009,7 @@ export const accordionProps: AccordionProps[] = [
         title:
           "Playing Detective: Maintaining Outdoor Public Art When Information is Lacking",
         time: "2:30pm-3:30pm",
+        location: "Salon 5",
         speakers: [
           {
             name: "Kirstin Cutts",
@@ -952,6 +1030,7 @@ export const accordionProps: AccordionProps[] = [
         id: 23,
         time: "3:30pm-5:30pm",
         title: "TAM Academic Project Showcase Competition",
+        location: "Bullock Museum Austin Room",
         description:
           "See the future of Texas museum professionals on display at the Bullock Museum’s Austin room, where students will present their research contributions to the museum field before a state-wide audience of scholars and museum professionals.",
       },
@@ -959,16 +1038,23 @@ export const accordionProps: AccordionProps[] = [
         id: 24,
         time: "3:30pm-5:30pm",
         title: "Austin Museum Activations",
+        location: "Bullock Museum Austin Room",
         description:
           "TAM is excited to offer educational activities highlighting Austin’s local institutions. Join us across the street at the Bullock Museum’s Austin room for hands-on engagement experiences.",
       },
       {
-        id: 25,
-        time: "5:30pm-8:30pm",
-        title:
-          "Fossils, Friends, and Fantastic Views: An Evening at the Texas Science and Natural History Museum and The Contemporary Austin - Jones Center",
+        id: 34,
+        title: "Evening Events",
+        location: "Texas Science and Natural History Museum",
         description:
-          "Travel across the city for a night of science AND art! Begin your evening with hors d’oeuvres and beverages at the Texas Science and Natural History Museum, generously underwritten by MuseWorks. Next, shuttle to The Contemporary Austin - Jones Center for sunset views, contemporary art, and rooftop refreshments.",
+          "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
+        time: "5pm-6pm",
+      },
+      {
+        id: 35,
+        title: "Evening Events",
+        location: "The Contemporary Austin - Jones Center",
+        time: "5pm-8pm",
       },
     ],
   },
@@ -977,12 +1063,51 @@ export const accordionProps: AccordionProps[] = [
     title: "Wednesday, April 9th",
     open: false,
     events: [
-      { id: 0, title: "TAM at the Texas State Capitol", time: "9am" },
+      {
+        id: -1,
+        title: "Building Bridges: Advocacy for Impact at the State Legislature",
+        time: "8am-9am",
+        location: "Salons 3 & 4",
+        speakers: [
+          {
+            name: "Chris Kiley",
+            institution: "Texans for the Arts",
+            headshot: "/head-shots/chris-kiley.jpg",
+          },
+          {
+            name: "Representative Vilma Luna",
+            institution: "Government Affairs & Legislative Consulting",
+            headshot: "/head-shots/vilma-luna.jpg",
+          },
+          {
+            name: "Aschelle Morgan",
+            institution: "Dallas Museum of Art",
+            headshot: "/head-shots/aschelle-morgan.jpeg",
+          },
+          {
+            name: "Jenny Parry",
+            institution: "Texas Cultural Trust",
+            headshot: "/head-shots/jenny-parry.jpg",
+          },
+        ],
+        description:
+          "Join us for a timely panel discussion on the power of legislative advocacy in shaping the future of Texas museums. Learn how to effectively navigate policy-making from experienced experts, and come away with tools to secure vital support and resources for our cultural institutions. ",
+      },
+      {
+        id: 0,
+        title: "TAM at the Texas State Capitol",
+        description:
+          "Join us at the Texas State Capitol to hear TAM's 50th Anniversary proclomation read. After, consider staying to visit your state representative at the Capitol for an opportunity to advocate for your museum and share the importance of cultural institutions in your community.",
+        location: "Texas State Capitol",
+        time: "9am",
+      },
       {
         id: 1,
         title:
           "Putting It All Together: Preparing for 2026 at Small History Organizations",
+        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on-making-history-at-250",
         time: "9:15am-12:15pm",
+        location: "Salon 1",
         speakers: [
           {
             name: "Melissa Prycer",
@@ -998,6 +1123,8 @@ export const accordionProps: AccordionProps[] = [
         title:
           "Full S.T.E.A.M Ahead: How to Foster the S.T.E.A.M. Mindset in Your Museum",
         time: "9:15am-12:15pm",
+        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on-full-steam-ahead",
+        location: "Salon 2",
         speakers: [
           {
             name: "Kathleen Havens",
@@ -1017,7 +1144,9 @@ export const accordionProps: AccordionProps[] = [
         id: 3,
         title:
           "Innovative and Non-Traditional Strategies: Relaunching Your Museum for The Future",
+        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on-innovative-and-non-traditional-strategies",
         time: "9:15am-12:15pm",
+        location: "Salons 3 & 4",
         speakers: [
           {
             name: "Abigail Erickson-Torres",
@@ -1032,6 +1161,8 @@ export const accordionProps: AccordionProps[] = [
         id: 4,
         title:
           "Preserving Moving Images: Building Confidence with Archival Media Formats",
+        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on---tami-preserving-moving-images",
+        location: "Salon 5",
         time: "9:15am-12:15pm",
         speakers: [
           {
@@ -1047,6 +1178,8 @@ export const accordionProps: AccordionProps[] = [
         id: 5,
         title:
           "Don't Just Prepare for the Last War: Informed Emergency Preparedness",
+        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on-don't-just-prepare-for-the-last-war",
+        location: "Salon 6",
         time: "9:15am-12:15pm",
         speakers: [
           {
@@ -1061,6 +1194,8 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 6,
         title: "Landmarks Tour: Public Art at UT Austin",
+        link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--landmarks-tour-public-art-at-ut-austin",
+        location: "AT&T Hotel and Conference Center Lobby",
         time: "10am-11:30am",
         speakers: [
           {
@@ -1076,6 +1211,9 @@ export const accordionProps: AccordionProps[] = [
         id: 7,
         title:
           "Briscoe Center for American History Tour History and Fate: The Goodwins and The 1960s",
+        link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--briscoe-center-for-american-history",
+        location:
+          "The Briscoe Center: Please meet the shuttle outside the west entrance of the conference center on Whitis Avenue between 20th Street and Martin Luther King Jr. Boulevard. The shuttle will pick up between the AT&T Hotel and Conference Center and Rowling Hall.",
         time: "10am-11:30am",
         speakers: [
           {
@@ -1090,7 +1228,10 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 8,
         title: "Black Austin History Tour with Visit Austin ",
-        time: "10am-11:30am",
+        time: "10am-12:30pm",
+        link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--black-austin-history-tour-with-visit-austin",
+        location:
+          "Please meet the shuttle outside the west entrance of the conference center on Whitis Avenue between 20th Street and Martin Luther King Jr. Boulevard. The shuttle will pick up between the AT&T Hotel and Conference Center and Rowling Hall.",
         speakers: [
           {
             name: "Harrison Eppright",
