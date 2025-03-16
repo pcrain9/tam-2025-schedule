@@ -43,8 +43,6 @@ export function EventComponent({
           <p>{eventProps.location}</p>
         </div>
       )}
-
-      {eventProps.description && <p>{eventProps.description}</p>}
       {eventProps.link && (
         <div className="flex gap-2 items-center">
           <img src={linkIcon} className="h-[12px] w-[12px]" />
@@ -58,6 +56,8 @@ export function EventComponent({
           </a>
         </div>
       )}
+      {eventProps.description && <p>{eventProps.description}</p>}
+
       {eventProps.speakers && (
         <div className="flex gap-8 flex-wrap ">
           {eventProps.speakers.map((speaker) => (
