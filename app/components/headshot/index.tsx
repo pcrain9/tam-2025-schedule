@@ -13,11 +13,11 @@ export default function Headshot({
       />
       <div className="flex items-center gap-4 min-h-[100px] w-[155px]">
         <img className="h-[20px] w-[20px]" src={speakerIcon} />
-        <p>{speaker.name}</p>
+        <p className="font-poppins">{speaker.name}</p>
       </div>
       <div className="flex items-center gap-4 min-h-[100px] w-[155px]">
         <img className="h-[20px] w-[20px]" src={institutionIcon} />
-        <p>{speaker.institution}</p>
+        <p className="font-poppins">{speaker.institution}</p>
       </div>
     </div>
   );

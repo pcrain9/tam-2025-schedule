@@ -5,6 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        poppins: ["Poppins"],
+        goudyBookletter: ["Goody-Bookletter-1911"],
         sans: [
           '"Inter"',
           "ui-sans-serif",

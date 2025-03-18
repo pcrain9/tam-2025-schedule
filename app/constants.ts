@@ -151,7 +151,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Marcelo Ramirez Garcia-Rojas",
             institution: "International Museum of Art and Science",
-            headshot: "/head-shots/marcelo-ramirez-garcia-rojas.JPG",
+            headshot: "/head-shots/marcelo-ramirez-garcia-rojas.jpg",
           },
           {
             name: "Melinda McPeek",
@@ -201,7 +201,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Chris Dyer",
             institution: "Dr Pepper Museum",
-            headshot: "/head-shots/chris-dyer.JPG",
+            headshot: "/head-shots/chris-dyer.jpg",
           },
           {
             name: "Rachael A. Nadeau Johnson",
@@ -412,7 +412,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "A. Arro Smith, Ph.D. ",
             institution: "Save Austin Cemeteries",
-            headshot: "/head-shots/arro-smith.JPG",
+            headshot: "/head-shots/arro-smith.jpg",
           },
           {
             name: "Michael Ward",
@@ -549,7 +549,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Chris Frison",
             institution: "National Musuem of the Pacific War - D|G Studios",
-            headshot: "/head-shots/chris-frison.JPG",
+            headshot: "/head-shots/chris-frison.jpg",
           },
           {
             name: "Brad Parker",
@@ -564,7 +564,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Aaron Scarlata",
             institution: "Exhibit Concepts, Inc.",
-            headshot: "/head-shots/aaron-scarlata.JPG",
+            headshot: "/head-shots/aaron-scarlata.jpg",
           },
           {
             name: "David Shields",
@@ -924,7 +924,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Trey Crumpton",
             institution: "Mayborn Museum",
-            headshot: "/head-shots/trey-crumpton.JPG",
+            headshot: "/head-shots/trey-crumpton.jpg",
           },
         ],
         description:
@@ -967,7 +967,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Megan Massanelli",
             institution: "University of Pittsburgh ",
-            headshot: "/head-shots/megan-massanelli.JPG",
+            headshot: "/head-shots/megan-massanelli.jpg",
           },
         ],
         description:
@@ -993,7 +993,7 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Veronica Amoe",
             institution: "City of Nacogdoches Historic Sites Division",
-            headshot: "/head-shots/veronica-amoe.JPG",
+            headshot: "/head-shots/veronica-amoe.jpg",
           },
           {
             name: "Logan Baird",

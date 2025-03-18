@@ -17,7 +17,7 @@ export function EventComponent({
       }`}
     >
       <div className="flex">
-        <h2 className="font-bold text-lg text-center sm: text-start">
+        <h2 className="font-bold font-poppins text-lg text-center sm: text-start">
           {eventProps.title}
         </h2>
       </div>
@@ -40,7 +40,7 @@ export function EventComponent({
       {eventProps.location && (
         <div className="flex items-center gap-2">
           <img src={locationIcon} className="h-[14px] w-[12px]" />
-          <p>{eventProps.location}</p>
+          <p className="font-poppins">{eventProps.location}</p>
         </div>
       )}
       {eventProps.link && (
@@ -48,7 +48,7 @@ export function EventComponent({
           <img src={linkIcon} className="h-[12px] w-[12px]" />
           <a
             href={eventProps.link}
-            className="font-bold underline"
+            className="font-bold font-poppins underline"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -56,7 +56,9 @@ export function EventComponent({
           </a>
         </div>
       )}
-      {eventProps.description && <p>{eventProps.description}</p>}
+      {eventProps.description && (
+        <p className="font-poppins">{eventProps.description}</p>
+      )}
 
       {eventProps.speakers && (
         <div className="flex gap-8 flex-wrap ">

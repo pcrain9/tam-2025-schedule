@@ -57,7 +57,7 @@ export function Accordion({
     <div className="flex flex-1 flex-col min-w-full" ref={elRef}>
       <button
         onClick={showContent}
-        className="w-full font-bold flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded"
+        className="w-full font-bold flex justify-between items-center py-5 px-5 text-slate-800 bg-[#8194B7] rounded font-poppins"
       >
         <span>{accordionProps.title}</span>
         <span id="icon-1" className="text-slate-800">
