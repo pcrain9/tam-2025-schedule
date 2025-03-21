@@ -11,7 +11,7 @@ export default function Notifications({
   return (
     <>
       {open && (
-        <div className="bg-[#CD6137] p-5 rounded flex justify-between items-center">
+        <div className="bg-[#CD6137] p-5 rounded flex justify-between gap-8 items-center">
           <p className="text-white font-poppins">{notification}</p>
           <button
             onClick={close}

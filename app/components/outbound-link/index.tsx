@@ -7,7 +7,7 @@ export default function OutboundLink({
 }) {
   return (
     <>
-      {index === 0 && <p className="invisible sm:visible">|</p>}
+      {index === 0 && <span className="hidden sm:block">|</span>}
       <a
         href={link.href}
         rel="noopener noreferrer"
@@ -16,7 +16,7 @@ export default function OutboundLink({
       >
         {link.title}
       </a>
-      <p className="invisible sm:visible">|</p>
+      <span className="hidden sm:block">|</span>
     </>
   );
 }
