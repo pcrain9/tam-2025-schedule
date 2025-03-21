@@ -16,7 +16,11 @@ export default function Headshot({
         <p className="font-poppins">{speaker.name}</p>
       </div>
       <div className="flex items-center gap-4 min-h-[100px] w-[155px]">
-        <img className="h-[20px] w-[20px]" src={institutionIcon} />
+        <img
+          className="h-[20px] w-[20px]"
+          src={institutionIcon}
+          alt={speaker.name}
+        />
         <p className="font-poppins">{speaker.institution}</p>
       </div>
     </div>

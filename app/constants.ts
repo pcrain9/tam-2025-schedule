@@ -78,12 +78,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Alysha Richardson",
             institution: "Temple Railroad and Heritage Museum",
-            headshot: "/head-shots/alysha-richardson.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/alysha-richardson_nexj9c.jpg",
           },
           {
             name: "Steve Baird",
             institution: "Klein Historical Foundation",
-            headshot: "/head-shots/steven-baird.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259790/steven-baird_xhg3sk.jpg",
           },
         ],
       },
@@ -97,7 +99,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Erin Whitmore",
             institution: "The Old Jail Art Center",
-            headshot: "/head-shots/erin-whitmore.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/erin-whitmore_m4psfg.jpg",
           },
         ],
         description:
@@ -115,23 +118,27 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Jennifer Eckermann",
             institution: "Visit Brenham/City of Brenham",
-            headshot: "/head-shots/jennifer-eckermann.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/jennifer-eckermann_npmoii.jpg",
           },
           {
             name: "Mallory Laurel",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/mallory-laurel.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259786/mallory-laurel_hcps7n.jpg",
           },
           {
             name: "Erin Shields",
             institution: "The Old Jail Art Center",
-            headshot: "/head-shots/erin-shields.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259782/erin-shields_nbcxzg.jpg",
           },
 
           {
             name: "Shelby Curtis",
             institution: "City of San Augustine",
-            headshot: "/head-shots/shelby-curtis.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259791/shelby-curtis_dtoibu.jpg",
           },
         ],
       },
@@ -146,22 +153,26 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Caitlin Clay",
             institution: "Art Museum of Southeast Texas",
-            headshot: "/head-shots/caitlin-clay.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/caitlin-clay_kbnxyv.jpg",
           },
           {
             name: "Marcelo Ramirez Garcia-Rojas",
             institution: "International Museum of Art and Science",
-            headshot: "/head-shots/marcelo-ramirez-garcia-rojas.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259786/marcelo-ramirez-garcia-rojas_mbdfgv.jpg",
           },
           {
             name: "Melinda McPeek",
             institution: "Institute of Museum and Library Services ",
-            headshot: "/head-shots/melinda-mcpeek.gif",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259773/melinda-mcpeek_dwtebr.gif",
           },
           {
             name: "Michael Ables",
             institution: "Texas Maritime Museum",
-            headshot: "/head-shots/michael-ables.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259775/michael-ables_y6temf.jpg",
           },
         ],
       },
@@ -174,17 +185,20 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Paul Cato",
             institution: "Neill-Cochran House Museum",
-            headshot: "/head-shots/paul-cato.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/paul-cato_boohgo.jpg",
           },
           {
             name: "Daniel Carey-Whalen",
             institution: "Centennial Museum and Chihuahuan Desert Gardens",
-            headshot: "/head-shots/daniel-carey-whalen.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259780/daniel-carey-whalen_ydl3dj.jpg",
           },
           {
             name: "Nikki Diller",
             institution: "Fort Worth Museum of Science and History",
-            headshot: "/head-shots/nikki-diller.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/nikki-diller_anhxmo.jpg",
           },
         ],
         description:
@@ -201,22 +215,26 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Chris Dyer",
             institution: "Dr Pepper Museum",
-            headshot: "/head-shots/chris-dyer.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259780/chris-dyer_foggwn.jpg",
           },
           {
             name: "Rachael A. Nadeau Johnson",
             institution: "Dr Pepper Museum",
-            headshot: "/head-shots/rachael-nadeau.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259788/rachael-nadeau_hpbx57.jpg",
           },
           {
             name: "Coyote Balderrama Shook",
             institution: "Bullock Texas State History Museum",
-            headshot: "/head-shots/coyote-shook.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259781/coyote-shook_gmsks0.jpg",
           },
           {
             name: "April Love",
             institution: "Mayborn Museum",
-            headshot: "/head-shots/april-love.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/april-love_ltv9g3.jpg",
           },
         ],
         description:
@@ -230,12 +248,14 @@ export const accordionProps: AccordionProps[] = [
         speakers: [
           {
             name: "Aubrey Nielsen",
-            headshot: "/head-shots/aubrey-nielsen.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259778/aubrey-nielsen_lbblsg.jpg",
             institution: "Brownsville Historical Association",
           },
           {
             name: "Cecilia Abad",
-            headshot: "/head-shots/cecilia-abad.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/cecilia-abad_luanwa.jpg",
             institution: "Texas Historical Commission",
           },
         ],
@@ -254,17 +274,20 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Erin Frigo",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/erin-frigo.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259793/erin-frigo_xg5n2y.png",
           },
           {
             name: "Lauren Siegel",
             institution: "MathHappens Foundation",
-            headshot: "/head-shots/lauren-siegel.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/lauren-siegel_f3xdni.jpg",
           },
           {
             name: "Morgan Oldham",
             institution: "The Alamo",
-            headshot: "/head-shots/morgan-oldham.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/morgan-oldham_wwu0bi.jpg",
           },
         ],
       },
@@ -279,23 +302,27 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Roula Tsapalas",
             institution: "Quatrefoil Associates",
-            headshot: "/head-shots/roula-tsapalas-mccarthy.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259790/roula-tsapalas-mccarthy_bvkuav.jpg",
           },
           {
             name: "Natalie George",
             institution: "Flower Hill Center",
-            headshot: "/head-shots/natalie-george.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/natalie-george_adtoaf.jpg",
           },
           {
             name: "Angela Kennedy",
             institution: "Heart of the Hills Heritage Center",
-            headshot: "/head-shots/angela-kennedy.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/angela-kennedy_ab3aoc.jpg",
           },
           {
             name: "Nina Murrell",
             institution:
               "Flower Hill Center / Murrell Office for Development and Architecture, LLC",
-            headshot: "/head-shots/nina-murrell.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/nina-murrell_d2ipmj.jpg",
           },
         ],
       },
@@ -309,18 +336,21 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Craig Farrell",
             institution: "Gulf Coast Archive & Museum of GLBT History, Inc.",
-            headshot: "/head-shots/craig-farrell.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259792/craig-farrell_a18sz8.png",
           },
           {
             name: "Joyce Gabiola",
             institution: "University of Houston",
-            headshot: "/head-shots/joyce-gabiola.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/joyce-gabiola_l9kx9i.jpg",
           },
           {
             name: "Dr. Brian Riedel",
             institution:
               "Center for the Study of Women, Gender, and Sexuality at Rice University ",
-            headshot: "/head-shots/brian-riedel.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/brian-riedel_dbnyp8.jpg",
           },
         ],
         description:
@@ -343,7 +373,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Dr. Jen Benoit-Bryan, Research Director",
             institution: "SMU DataArts",
-            headshot: "/head-shots/Jen-Benoit-Bryant.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/Jen-Benoit-Bryant_qkkrsy.jpg",
           },
         ],
       },
@@ -364,7 +395,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Liz Jackson",
             institution: "Briscoe Western Art Museum",
-            headshot: "/head-shots/liz-jackson.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259785/liz-jackson_is6cs4.jpg",
           },
         ],
       },
@@ -376,12 +408,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Arpil Love",
             institution: "Mayborn Museum",
-            headshot: "/head-shots/april-love.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/april-love_ltv9g3.jpg",
           },
           {
             name: "Kaleigh Reid",
             institution: "Mayborn Museum",
-            headshot: "/head-shots/kaleigh-reid.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/kaleigh-reid_kh2ff0.jpg",
           },
         ],
 
@@ -397,27 +431,32 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Dr. Tara A. Dudley",
             institution: "NHCM",
-            headshot: "/head-shots/tara-dudley.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259791/tara-dudley_mfflls.jpg",
           },
           {
             name: "Cathy Runnels",
             institution: "Carver Museum",
-            headshot: "/head-shots/cathy-runnels.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259792/cathy-runnels_aur3gj.png",
           },
           {
             name: "Dr. Rowena Dasch",
             institution: "Neill-Cochran House Museum",
-            headshot: "/head-shots/rowena-dasch.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259790/rowena-dasch_lqdh4s.jpg",
           },
           {
             name: "A. Arro Smith, Ph.D. ",
             institution: "Save Austin Cemeteries",
-            headshot: "/head-shots/arro-smith.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259778/arro-smith_cdcym8.jpg",
           },
           {
             name: "Michael Ward",
             institution: "Jourdan-Bachman Pioneer Farms",
-            headshot: "/head-shots/michael-ward.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259786/michael-ward_cdmqgt.jpg",
           },
         ],
         description:
@@ -432,7 +471,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Alexandra Vanderhider Cuthbert",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/alexandra-cuthbert.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/alexandra-cuthbert_zaycwn.jpg",
           },
         ],
         description:
@@ -467,12 +507,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Mel Tamporello",
             institution: "Bullock Texas State History Museum",
-            headshot: "/head-shots/mel-tamporello.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/mel-tamporello_w9kdfo.jpg",
           },
           {
             name: "Emily Henne",
             institution: "Bullock Texas State History Museum",
-            headshot: "/head-shots/emily-henne.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259781/emily-henne_mi2ewg.jpg",
           },
         ],
         time: "3:30pm-4pm",
@@ -488,7 +530,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Wendy Taylor",
             institution: "Don Harrington Discovery Center",
-            headshot: "/head-shots/wendy-taylor.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/wendy-taylor_ramysx.jpg",
           },
         ],
         time: "3:30pm-4pm",
@@ -502,22 +545,26 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Dr. Sarah Sonner",
             institution: "Briscoe Center for American History, UT Austin",
-            headshot: "/head-shots/sarah-sonner.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259793/sarah-sonner_hc7b6b.png",
           },
           {
             name: "Suzanne M. McGarraugh",
             institution: "Suzanne M. McGarraugh Exhibit Design Services",
-            headshot: "/head-shots/suzanne-mcgarraugh.JPEG",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/suzanne-mcgarraugh_k4pyxz.jpg",
           },
           {
             name: "Michelle Rossomando, AIA, RID",
             institution: "McKinney York Architects",
-            headshot: "/head-shots/michelle-rossomando.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/michelle-rossomando_xphnvf.jpg",
           },
           {
             name: "Aaron Taylor, AIA",
             institution: "McKinney York Architects",
-            headshot: "/head-shots/aaron-taylor.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-taylor_me5pmy.jpg",
           },
         ],
         description:
@@ -535,7 +582,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Jacqui Schraad, CFRE, CNM, CFRM",
             institution: "Texas State History Museum Foundation",
-            headshot: "/head-shots/jacqui-schraad.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/jacqui-schraad_qgxqlq.jpg",
           },
         ],
         time: "3:30pm-4pm",
@@ -549,27 +597,32 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Chris Frison",
             institution: "National Musuem of the Pacific War - D|G Studios",
-            headshot: "/head-shots/chris-frison.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259780/chris-frison_xln3xu.jpg",
           },
           {
             name: "Brad Parker",
             institution: "BPI",
-            headshot: "/head-shots/brad-parker.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/brad-parker_iynhvz.jpg",
           },
           {
             name: "Nicole Huang",
             institution: "BPI",
-            headshot: "/head-shots/nicole-huang.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259788/nicole-huang_wjmqhh.jpg",
           },
           {
             name: "Aaron Scarlata",
             institution: "Exhibit Concepts, Inc.",
-            headshot: "/head-shots/aaron-scarlata.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-scarlata_ndzpec.jpg",
           },
           {
             name: "David Shields",
             institution: "National Museum of the Pacific War",
-            headshot: "/head-shots/david-shields.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259781/david-shields_mjgv7w.jpg",
           },
         ],
         description:
@@ -584,17 +637,20 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Shae Nawoj",
             institution: "Log Cabin Village",
-            headshot: "/head-shots/shae-nawoj.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259794/shae-nawoj_qcaalo.png",
           },
           {
             name: "Bethany Cuthbertson",
             institution: "Fort Worth Museum of Science and History",
-            headshot: "/head-shots/bethany-cuthbertson.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/bethany-cuthbertson_iz7q7r.jpg",
           },
           {
             name: "Rebecca Reed",
             institution: "Fort Worth Museum of Science and History",
-            headshot: "/head-shots/rebecca-reed.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/rebecca-reed_m5yrwn.jpg",
           },
         ],
         description:
@@ -610,12 +666,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Nonie Tompkins",
             institution: "Distinguished Fine Art and Collectibles",
-            headshot: "/head-shots/nonie-tompkins.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/nonie-tompkins_v6scmq.jpg",
           },
           {
             name: "Joy S. Simpson",
             institution: "Higginbotham",
-            headshot: "/head-shots/joy-simpson.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/joy-simpson_twmq9o.jpg",
           },
         ],
         description:
@@ -631,7 +689,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Margaret Koch",
             institution: "Bullock Texas State History Museum",
-            headshot: "/head-shots/margaret-koch.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259785/margaret-koch_ou0ivr.jpg",
           },
         ],
         description:
@@ -714,17 +773,20 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Regina Faden",
             institution: "Fort Worth Museum of Science and History",
-            headshot: "/head-shots/regina-faden.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/regina-faden_mvn2c4.jpg",
           },
           {
             name: "Amanda Blake",
             institution: "Amon Carter Museum of American Art",
-            headshot: "/head-shots/amanda-blake.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/amanda-blake_xiljvr.jpg",
           },
           {
             name: "Noël Koehn",
             institution: "Wilkening Consulting",
-            headshot: "/head-shots/noel-koehn.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259788/noel-koehn_tj7dyg.jpg",
           },
         ],
         description:
@@ -739,17 +801,20 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Rosemary Kriegel",
             institution: "The Alamo",
-            headshot: "/head-shots/rosemary-kriegel.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259790/rosemary-kriegel_wcanzz.jpg",
           },
           {
             name: "Alexander Rivard",
             institution: "The Alamo",
-            headshot: "/head-shots/alexander-rivard.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/alexander-rivard_tw9dxn.jpg",
           },
           {
             name: "Heike Jenkins",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/heike-jenkins.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259782/heike-jenkins_aht3ui.jpg",
           },
         ],
         description:
@@ -766,23 +831,27 @@ export const accordionProps: AccordionProps[] = [
             name: "Stephanie Allen-Givens",
             institution:
               "Crow Museum of Asian Art at the University of Texas at Dallas",
-            headshot: "/head-shots/stephanie-allen-givens.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259794/stephanie-allen-givens_omux6v.png",
           },
           {
             name: "Charles Camp",
             institution:
               "Crow Museum of Asian Art at the University of Texas at Dallas",
-            headshot: "/head-shots/charles-camp.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259780/charles-camp_fa610i.jpg",
           },
           {
             name: "Devorah Hale",
             institution: "Perot Museum of Nature and Science",
-            headshot: "/head-shots/devorah-hale.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259782/devorah-hale_fytm8w.jpg",
           },
           {
             name: "Karen Morton",
             institution: "Perot Museum of Nature and Science",
-            headshot: "/head-shots/karen-morton.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/karen-morton_bmigw0.jpg",
           },
         ],
         description:
@@ -817,12 +886,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Teresa Bonner",
             institution: "E.A. Michelson Philanthropy",
-            headshot: "/head-shots/teresa-bonner.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/teresa-bonner_mhudc0.jpg",
           },
           {
             name: "Paul Coffey",
             institution: "Glassell School of Art, Museum of Fine Arts Houston",
-            headshot: "/head-shots/paul-coffey.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/paul-coffey_bwtwnf.jpg",
           },
         ],
         description:
@@ -843,7 +914,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Tonya Veasey",
             institution: "Open Channels Group+ ",
-            headshot: "/head-shots/tonya-veasey.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259791/tonya-veasey_a5x5qr.jpg",
           },
         ],
         description:
@@ -859,7 +931,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Catherine Whited",
             institution: "University of Texas at Austin, Landmarks",
-            headshot: "/head-shots/catherine-whited.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/catherine-whited_xbnz3h.jpg",
           },
         ],
         description:
@@ -875,12 +948,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Jamie A. Ross",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/jamie-ross.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/jamie-ross_fbcx9u.jpg",
           },
           {
             name: "Sara Nezamabadi",
             institution: "Texas Historical Commission",
-            headshot: "/head-shots/sara-nezamabadi.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/sara-nezamabadi_ab9fcv.jpg",
           },
         ],
         description:
@@ -896,7 +971,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Laura Fowler",
             institution: "Fowler Law Firm",
-            headshot: "/head-shots/laura-fowler.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259775/laura-fowler_gqmpbw.jpg",
           },
         ],
         description:
@@ -913,18 +989,21 @@ export const accordionProps: AccordionProps[] = [
             name: "Jenny Townzen",
             institution:
               "Kreische Brewery & Monument Hill SHS (Texas Historical Commission)",
-            headshot: "/head-shots/jenny-townzen.JPEG",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259775/jenny-townzen_td0ezz.jpg",
           },
           {
             name: "Gavin Miculka",
             institution:
               "Kreische Brewery & Monument Hill SHS (Texas Historical Commission)",
-            headshot: "/head-shots/gavin-miculka.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259782/gavin-miculka_kcjwqu.jpg",
           },
           {
             name: "Trey Crumpton",
             institution: "Mayborn Museum",
-            headshot: "/head-shots/trey-crumpton.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259792/trey-crumpton_a0gs3n.jpg",
           },
         ],
         description:
@@ -941,7 +1020,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Wendy Taylor",
             institution: "Don Harrington Discovery Center",
-            headshot: "/head-shots/wendy-taylor.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/wendy-taylor_ramysx.jpg",
           },
         ],
         description:
@@ -956,18 +1036,21 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Kali Mercy",
             institution: "Perot Family Collections",
-            headshot: "/head-shots/kali-mercy.JPEG",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259775/kali-mercy_exoot9.jpg",
           },
           {
             name: "Rachel Lavenda",
             institution:
               "University of Pittsburgh Library System, Archives & Special Collections",
-            headshot: "/head-shots/rachel-lavenda.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259789/rachel-lavenda_ijy0r9.jpg",
           },
           {
             name: "Megan Massanelli",
             institution: "University of Pittsburgh ",
-            headshot: "/head-shots/megan-massanelli.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259785/megan-massanelli_ubl3ft.jpg",
           },
         ],
         description:
@@ -983,22 +1066,26 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Alysha Richardson",
             institution: "Temple Railroad and Heritage Museum",
-            headshot: "/head-shots/alysha-richardson.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/alysha-richardson_nexj9c.jpg",
           },
           {
             name: "Emily Smith",
             institution: "Temple Children's Museum ",
-            headshot: "/head-shots/emily-smith.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742515994/emily-smith_zo8t5w.jpg",
           },
           {
             name: "Veronica Amoe",
             institution: "City of Nacogdoches Historic Sites Division",
-            headshot: "/head-shots/veronica-amoe.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259791/veronica-amoe_neo5l1.jpg",
           },
           {
             name: "Logan Baird",
             institution: "Museum Professional",
-            headshot: "/head-shots/logan-baird.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259785/logan-baird_u3bm5z.jpg",
           },
         ],
         description:
@@ -1014,13 +1101,15 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Kirstin Cutts",
             institution: "City of San Antonio Department of Arts and Culture",
-            headshot: "/head-shots/kirstin-cutts.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/kirstin-cutts_v3aixn.jpg",
           },
           {
             name: "Lindsay Hamm Havekost",
             institution:
               "Landmarks, the public art program of the University of Texas at Austin",
-            headshot: "/head-shots/lindsay-hamm.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/lindsay-hamm_bzkscy.jpg",
           },
         ],
         description:
@@ -1072,22 +1161,26 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Chris Kiley",
             institution: "Texans for the Arts",
-            headshot: "/head-shots/chris-kiley.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259780/chris-kiley_ulbtd5.jpg",
           },
           {
             name: "Representative Vilma Luna",
             institution: "Government Affairs & Legislative Consulting",
-            headshot: "/head-shots/vilma-luna.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259792/vilma-luna_ihxlnc.jpg",
           },
           {
             name: "Aschelle Morgan",
             institution: "Dallas Museum of Art",
-            headshot: "/head-shots/aschelle-morgan.jpeg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259773/aschelle-morgan_mg8lyc.jpg",
           },
           {
             name: "Jenny Parry",
             institution: "Texas Cultural Trust",
-            headshot: "/head-shots/jenny-parry.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/jenny-parry_wt9ow7.jpg",
           },
         ],
         description:
@@ -1112,7 +1205,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Melissa Prycer",
             institution: "Prycer Consulting",
-            headshot: "/head-shots/melissa-prycer.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259786/melissa-prycer_lto9pz.jpg",
           },
         ],
         description:
@@ -1129,12 +1223,14 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Kathleen Havens",
             institution: "Houston Museum of Natural Science",
-            headshot: "/head-shots/kathleen-havens.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259793/kathleen-havens_mptdfp.png",
           },
           {
             name: "Nicole Temple",
             institution: "Houston Museum of Natural Science",
-            headshot: "/head-shots/nicole-temple.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259793/nicole-temple_vyyrng.png",
           },
         ],
         description:
@@ -1151,7 +1247,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Abigail Erickson-Torres",
             institution: "Frontiers of Flight Museum",
-            headshot: "/head-shots/abigail-erickson-torres.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/abigail-erickson-torres_ojbb36.jpg",
           },
         ],
         description:
@@ -1168,7 +1265,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Ari Negovschi Regalado",
             institution: "Texas Archive of the Moving Image",
-            headshot: "/head-shots/ari-negovschi-regalado.JPG",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259777/ari-negovschi-regalado_nlrmgl.jpg",
           },
         ],
         description:
@@ -1185,7 +1283,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Ellen Cone Busch",
             institution: "Texas Historical Commission ",
-            headshot: "/head-shots/ellen-cone-busch.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259794/ellen-cone-busch_gfduuh.png",
           },
         ],
         description:
@@ -1201,7 +1300,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Catherine Whited",
             institution: "University of Texas at Austin, Landmarks",
-            headshot: "/head-shots/catherine-whited.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259779/catherine-whited_xbnz3h.jpg",
           },
         ],
         description:
@@ -1219,7 +1319,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Dr. Sarah Sonner",
             institution: "Briscoe Center for American History",
-            headshot: "/head-shots/sarah-sonner.png",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259793/sarah-sonner_hc7b6b.png",
           },
         ],
         description:
@@ -1236,7 +1337,8 @@ export const accordionProps: AccordionProps[] = [
           {
             name: "Harrison Eppright",
             institution: "Visit Austin",
-            headshot: "/head-shots/harrison-eppright.jpg",
+            headshot:
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259782/harrison-eppright_wcb3ed.jpg",
           },
         ],
         description:
