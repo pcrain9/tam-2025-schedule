@@ -29,7 +29,7 @@ export const accordionProps: AccordionProps[] = [
         id: 0,
         title: "Conference Registration",
         location: "LBJ Presidential Library",
-        time: "5pm-6pm",
+        time: "5:00pm-6:00pm",
       },
       {
         id: 1,
@@ -38,7 +38,7 @@ export const accordionProps: AccordionProps[] = [
           "LBJ Presidential Library and the Briscoe Center for American History",
         description:
           "Evening at the LBJ Presidential Library with special access to The Briscoe Center for American History",
-        time: "6pm-8pm",
+        time: "6:00pm-8:00pm",
       },
     ],
   },
@@ -51,13 +51,13 @@ export const accordionProps: AccordionProps[] = [
         id: 0,
         title: "Conference Registration",
         location: "Zlotnik Pre-Function",
-        time: "8am-4:30pm",
+        time: "8:00am-4:30pm",
       },
       {
         id: 1,
         title: "Breakfast with Exhibitors",
         location: "Zlotnik Pre-Function",
-        time: "8am-9am",
+        time: "8:00am-9:00am",
       },
       {
         id: 2,
@@ -204,12 +204,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "This session explores mundane programs like Docusign, practical programs like CatalogIt, and magnificent technology like the Omni Digital Dome. Come hear about three different institutions' experiences with very different technology. How can technology help your museum improve its operations or expand your visitor experiences?",
       },
-      { id: 9, title: "Break", time: "10:45am-11am" },
+      { id: 9, title: "Break", time: "10:45am-11:00am" },
       {
         id: 10,
         title:
           "Museum Emerging Leaders of Texas (MELT) Roundtable with the MELT Affinity Group",
-        time: "11am-12pm",
+        time: "11:00am-12:00pm",
         location: "Salons 3 & 4",
         speakers: [
           {
@@ -261,13 +261,13 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Join the Collections Managers Committee (CMC) Affinity Group to discuss creative solutions. Whether you are a seasoned professional or new to the field, come prepared to share your stories, challenges, and successes in collections while navigating budget constraints.",
-        time: "11am-12pm",
+        time: "11:00am-12:00pm",
       },
       {
         id: 12,
         title: "STEM Lens on History and Culture",
         location: "Salon 1",
-        time: "11am-12pm",
+        time: "11:00am-12:00pm",
         description:
           "This panel will provide museum and cultural site education and interpretation staff with tools to create STEM and STEAM programming successfully. Panelists from the Texas Historical Commission describe, analyze and assess their STEM and STEAM programming with the intention of providing inspiration and support for participants who wish to incorporate STEM and STEAM concepts in educational programming. Panelists share images, stories, successes, and lessons from programs they created or helped to create at their historical and cultural sites. They offer a short, easy hands-on example for participants to experience the exploration of STEM and STEAM concepts in a historical and cultural setting.",
         speakers: [
@@ -297,7 +297,7 @@ export const accordionProps: AccordionProps[] = [
         location: "Salon 5",
         description:
           "How is your museum balancing the use of spaces to accommodate community gatherings, programs, and exhibits? Museum directors from Flower Hill Center in Austin and Heart of the Hills Heritage Center in Kerrville and Chief Operating Officer/Partner at Quatrefoil Associates exhibit design firm will share ideas about designing flexible spaces at museums in historic buildings that balance the use of their unique and limited spaces to offer programs and exhibitions. Each unique perspective will provide insight into how small museums are taking different approaches to create vibrant hubs for their communities.",
-        time: "11am-12pm",
+        time: "11:00am-12:00pm",
         speakers: [
           {
             name: "Roula Tsapalas",
@@ -331,7 +331,7 @@ export const accordionProps: AccordionProps[] = [
         title:
           "Listening, Learning, and Working: Five Years into an Alternative Future",
         location: "Salon 6",
-        time: "11am-12pm",
+        time: "11:00am-12:00pm",
         speakers: [
           {
             name: "Craig Farrell",
@@ -360,13 +360,13 @@ export const accordionProps: AccordionProps[] = [
         id: 15,
         title: "Lunch Buffet",
         location: "Zlotnik Ballroom",
-        time: "12pm-12:15pm",
+        time: "12:00pm-12:15pm",
       },
       {
         id: 16,
         title: "Lunch and Keynote",
         location: "Salons 3 & 4",
-        time: "12:15pm-1pm",
+        time: "12:15pm-1:00pm",
         description:
           "This keynoye address explores how to leverage data in the museum field to inform strategic change, foster equity and inclusion, and support advocacy efforts. Starting with grounding in recent trends in data across the sector, we’ll discuss easy options for data collection around a range of topics, share available sources of data, and discuss how they can be activated.  Case studies will be woven into the discussion to illustrate how museums of various types and sizes are leveraging research and data as helpful tools for their work.",
         speakers: [
@@ -381,7 +381,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 17,
         title: "Break",
-        time: "1pm-1:15pm",
+        time: "1:00pm-1:15pm",
       },
       {
         id: 18,
@@ -517,7 +517,7 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259781/emily-henne_mi2ewg.jpg",
           },
         ],
-        time: "3:30pm-4pm",
+        time: "3:30pm-4:00pm",
       },
       {
         id: 26,
@@ -534,7 +534,7 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/wendy-taylor_ramysx.jpg",
           },
         ],
-        time: "3:30pm-4pm",
+        time: "3:30pm-4:00pm",
       },
       {
         id: 27,
@@ -564,12 +564,12 @@ export const accordionProps: AccordionProps[] = [
             name: "Aaron Taylor, AIA",
             institution: "McKinney York Architects",
             headshot:
-              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-taylor_me5pmy.jpg",
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-taylor_me5:00pmy.jpg",
           },
         ],
         description:
           "Through stewardship, scholarship, and outreach, the Briscoe Center for American History cultivates historical knowledge and fosters exploration of our nation’s past. As a small museum whose mission is to showcase historically significant collections, the Center utilizes rotating exhibits in a flexible gallery space to maximize its program, often with limited resources. This session will feature an open discussion between members of the Center’s exhibits team focusing on the approaches, challenges, and lessons learned from successful installations. In the context of the Center’s recent exhibits, the session will explore themes of practicality, resourcefulness, and collaboration to illuminate creative ways for small museums and archival institutions to display their unique collections to a wider audience.",
-        time: "3:30pm-4pm",
+        time: "3:30pm-4:00pm",
       },
       {
         id: 28,
@@ -586,7 +586,7 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/jacqui-schraad_qgxqlq.jpg",
           },
         ],
-        time: "3:30pm-4pm",
+        time: "3:30pm-4:00pm",
       },
       {
         id: 29,
@@ -627,7 +627,7 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "This session explores the challenges and insights gained in developing an exhibition on children’s experiences during World War II. From addressing sensitive topics in an age-appropriate way to overcoming space limitations while creating immersive environments, the exhibition’s concept evolved—from placing children in the role of soldiers to examining how the war shaped their daily lives and families. Learn about the creative solutions and lessons learned throughout the process.",
-        time: "4pm-4:30pm",
+        time: "4:00pm-4:30pm",
       },
       {
         id: 30,
@@ -655,7 +655,7 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Every museum has a gap in who they reach in their community and it can be overwhelming to come up with different ways to engage with your gap audiences. This session will look at ways the Log Cabin Village and the Fort Worth Museum of Science and History have developed programs with their gap communities in mind. ",
-        time: "4pm-4:30pm",
+        time: "4:00pm-4:30pm",
       },
       {
         id: 31,
@@ -678,7 +678,7 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Collections insurance plays a crucial role in safeguarding your museum’s mission. In this informative session, we’ll explore the ins and outs of collections insurance, demystifying its purpose, coverage, and who needs it. Whether you’re a curator, museum director, registrar, board member, or collector, understanding collections insurance is essential for protecting your irreplaceable collection. Join us as we unravel the complexities of collections insurance and empower you to make informed decisions for your museum collection.",
-        time: "4pm-4:30pm",
+        time: "4:00pm-4:30pm",
       },
       {
         id: 32,
@@ -695,7 +695,7 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Curious about the Semiquicentennial in 2026 (like how to pronounce it) and what you can do to participate? Join the presiding chair of the Texas America250 Commission for insight into this historic anniversary and learn how Texas is key to this national conversation. This 25-minute, fast-paced informational session will include time for questions and idea-sharing.",
-        time: "4pm-4:30pm",
+        time: "4:00pm-4:30pm",
       },
       {
         id: 33,
@@ -703,7 +703,7 @@ export const accordionProps: AccordionProps[] = [
         location: "Zlotnik Pre-Function",
         description:
           "Join us for a lively evening of networking, featuring an Austin-inspired cocktail and the latest innovations from our exhibitors. Connect with industry peers, explore new services and solutions, and don’t forget to visit each exhibitor for a chance to win a free registration to the TAM 2026 Annual Conference!",
-        time: "4:30pm-5pm",
+        time: "4:30pm-5:00pm",
       },
       {
         id: 34,
@@ -711,7 +711,7 @@ export const accordionProps: AccordionProps[] = [
         location: "Harry Ransom Center",
         description:
           "Museum leaders and current and past TAM Councilors from across the state mix and mingle during this special VIP Invitation Only event. The Harry Ransom Center exhibitions will be open to VIP invitees during the reception.",
-        time: "5pm-6pm",
+        time: "5:00pm-6:00pm",
       },
       {
         id: 35,
@@ -720,7 +720,7 @@ export const accordionProps: AccordionProps[] = [
         location: "Bullock Museum and Capitol Mall Sites",
         description:
           "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
-        time: "5pm-8pm",
+        time: "5:00pm-8:00pm",
       },
     ],
   },
@@ -732,19 +732,19 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 0,
         title: "Conference Registration",
-        time: "8am-3:30pm",
+        time: "8:00am-3:30pm",
         location: "Zlotnik Pre-Function",
       },
       {
         id: 1,
         title: "Breakfast with Exhibitors",
-        time: "8am-9am",
+        time: "8:00am-9:00am",
         location: "Zlotnik Pre-Function",
       },
       {
         id: 2,
         title: "TAM Annual Business Meeting",
-        time: "8:15am-9am",
+        time: "8:15am-9:00am",
         location: "Salons 3 & 4",
         description:
           "Join us as TAM introduces its newest Council members and holds its annual business meeting, where members will review the organization’s top priorities and direction for 2026 and beyond.",
@@ -752,7 +752,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 3,
         title: "TAM Awards Ceremony",
-        time: "9:15am-10am",
+        time: "9:15am-10:00am",
         location: "Salons 3 & 4",
         description:
           "Celebrate the best of Texas museums with us! This is a chance to recognize museum industry award winners for their incredible work. Featured winners include the Jo Stewart Randel Outstanding Trustee Award, Jack Nokes Outstanding Service Award, Mitchell A. Wilder Publication Design Award Competition, the Texas Association of Museums Media Innovation & Excellence Awards (TAMMIEs), and the inaugural Texas Association of Museums Advocacy Award.",
@@ -760,7 +760,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 4,
         title: "Networking Break",
-        time: "10am-10:30am",
+        time: "10:00am-10:30am",
         description: "Award Winners Join Us on Stage for Pictures",
       },
       {
@@ -869,19 +869,19 @@ export const accordionProps: AccordionProps[] = [
         id: 9,
         title: "Networking & Exhibitor Break",
         location: "Zlotnik Pre-Function",
-        time: "11:30am-12pm",
+        time: "11:30am-12:00pm",
       },
       {
         id: 10,
         title: "Lunch Buffet",
         location: "Zlotnik Pre-Function",
-        time: "12pm-12:15pm",
+        time: "12:00pm-12:15pm",
       },
       {
         id: 11,
         title: "Lunch and Keynote: Creative Aging Comes of Age - In Museums",
         location: "Salons 3 & 4",
-        time: "12:15pm-1pm",
+        time: "12:15pm-1:00pm",
         speakers: [
           {
             name: "Teresa Bonner",
@@ -902,7 +902,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 12,
         title: "Break",
-        time: "1pm-1:15pm",
+        time: "1:00pm-1:15pm",
       },
       {
         id: 13,
@@ -1137,13 +1137,13 @@ export const accordionProps: AccordionProps[] = [
         location: "Texas Science and Natural History Museum",
         description:
           "Join your Capitol Mall colleagues in celebrating TAM’s 50th anniversary! Behind-the-scenes tours at the State Library and Archives, Capitol Grounds, The General Land Office, and historic Gethsemane Catholic Church, plus Great Promise for American Indians and special guest musical performances, whiskey tasting, 1970s throwback movie reels from the Texas Archive of the Moving Image, curators/archivists/educators meet-up, Tamster photo-ops, and delicious hors d’oeuvres await!",
-        time: "5pm-6pm",
+        time: "5:00pm-6:00pm",
       },
       {
         id: 35,
         title: "Evening Events",
         location: "The Contemporary Austin - Jones Center",
-        time: "5pm-8pm",
+        time: "5:00pm-8:00pm",
       },
     ],
   },
@@ -1155,7 +1155,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: -1,
         title: "Building Bridges: Advocacy for Impact at the State Legislature",
-        time: "8am-9am",
+        time: "8:00am-9:00am",
         location: "Salons 3 & 4",
         speakers: [
           {
@@ -1192,7 +1192,7 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Join us at the Texas State Capitol to hear TAM's 50th Anniversary proclomation read. After, consider staying to visit your state representative at the Capitol for an opportunity to advocate for your museum and share the importance of cultural institutions in your community.",
         location: "Texas State Capitol",
-        time: "9am",
+        time: "9:00am",
       },
       {
         id: 1,
@@ -1295,7 +1295,7 @@ export const accordionProps: AccordionProps[] = [
         title: "Landmarks Tour: Public Art at UT Austin",
         link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--landmarks-tour-public-art-at-ut-austin",
         location: "AT&T Hotel and Conference Center Lobby",
-        time: "10am-11:30am",
+        time: "10:00am-11:30am",
         speakers: [
           {
             name: "Catherine Whited",
@@ -1314,7 +1314,7 @@ export const accordionProps: AccordionProps[] = [
         link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--briscoe-center-for-american-history",
         location:
           "The Briscoe Center: Please meet the shuttle outside the west entrance of the conference center on Whitis Avenue between 20th Street and Martin Luther King Jr. Boulevard. The shuttle will pick up between the AT&T Hotel and Conference Center and Rowling Hall.",
-        time: "10am-11:30am",
+        time: "10:00am-11:30am",
         speakers: [
           {
             name: "Dr. Sarah Sonner",
@@ -1329,7 +1329,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 8,
         title: "Black Austin History Tour with Visit Austin ",
-        time: "10am-12:30pm",
+        time: "10:00am-12:30pm",
         link: "https://www.texasmuseums.org/products/tam-2025-tour-add-on--black-austin-history-tour-with-visit-austin",
         location:
           "Please meet the shuttle outside the west entrance of the conference center on Whitis Avenue between 20th Street and Martin Luther King Jr. Boulevard. The shuttle will pick up between the AT&T Hotel and Conference Center and Rowling Hall.",
