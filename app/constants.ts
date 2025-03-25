@@ -406,7 +406,7 @@ export const accordionProps: AccordionProps[] = [
         location: "Salon 1",
         speakers: [
           {
-            name: "Arpil Love",
+            name: "April Love",
             institution: "Mayborn Museum",
             headshot:
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259774/april-love_ltv9g3.jpg",
@@ -564,7 +564,7 @@ export const accordionProps: AccordionProps[] = [
             name: "Aaron Taylor, AIA",
             institution: "McKinney York Architects",
             headshot:
-              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-taylor_me5:00pmy.jpg",
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/aaron-taylor_me5pmy.jpg",
           },
         ],
         description:
