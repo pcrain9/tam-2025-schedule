@@ -104,7 +104,7 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         description:
-          "Museum educators: looking for an opportunity for ideas and advice in a more informal, one-on-one format? Join us for an idea exchange/ expert advice in a variety of Educator Interest Areas—Speed-date style! Participants at this year's Educator Roundtable will spend 10 minutes or less in small-group discussion of each of the following: ideas for docent & volunteer corps recruitment, post-visit activities (inexpensive and meaningful extensions) idea-share(steal), successful teen programming, hosting classroom teacher in-services at your institution, and community 'friend-raisers' event/programs/collaborations.",
+          "Museum educators: looking for an opportunity for ideas and advice in a more informal, one-on-one format? Join us for an idea exchange/expert advice in a variety of Educator Interest Areas—Speed-date style! Participants at this year's Educator Roundtable will spend 10 minutes or less in small-group discussion of each of the following: ideas for docent & volunteer corps recruitment, post-visit activities (inexpensive and meaningful extensions) idea-share(steal), successful teen programming, hosting classroom teacher in-services at your institution, and community 'friend-raisers' events/programs/collaborations.",
       },
       {
         id: 6,
@@ -144,7 +144,7 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 7,
-        title: "Inspired: Small Museums Share Impact of IMLS Inspire grants",
+        title: "Inspired: Small Museums Share Impact of IMLS Inspire Grants",
         description:
           "The IMLS Inspire grant for small museums funds projects between $5,000 and $25,000 requiring no matching funds and those projects requesting funding between $25,001 and $75,000 do require a 1:1 match in two categories: Lifelong Learning and Collections Access and Stewardship. These funds can be transformative for small museums enabling giant leaps forward, incremental change, and exploration of new initiatives that would otherwise be unattainable due to limited resources. Inspire grant recipients share their experiences and the impact these project-specific grant funds have made on their museums. Participants will gain insights on the Inspire grant process through peer-to-peer learning from these case studies.",
         time: "9:45am-10:45am",
@@ -1007,7 +1007,7 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         description:
-          "WWhen designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
+          "When designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
       },
       { id: 18, title: "Break", time: "2:15pm-2:30pm" },
       {
@@ -1305,7 +1305,7 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         description:
-          "Join a walking tour with Landmarks staff to see highlights from UT Austin’s award-winning public art program. Comprised of 50 modern and contemporary works by some of the most admired artists of our time, the collection is one of the most distinguishing features of the main campus. On this tour, you will see installations by artists José Parlá, Raoul Hague, and others, and learn about Landmarks’ process for selecting and funding new projects. Participants will be on foot for the entirety of the tour.LANDMARKS TOUR IMAGE",
+          "Join a walking tour with Landmarks staff to see highlights from UT Austin’s award-winning public art program. Comprised of 50 modern and contemporary works by some of the most admired artists of our time, the collection is one of the most distinguishing features of the main campus. On this tour, you will see installations by artists José Parlá, Raoul Hague, and others, and learn about Landmarks’ process for selecting and funding new projects. Participants will be on foot for the entirety of the tour.",
       },
       {
         id: 7,
