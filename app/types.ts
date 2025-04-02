@@ -8,6 +8,7 @@ export type AccordionProps = {
 export type EventType = {
   id: number;
   title: string;
+  sponsor?: string;
   time: string;
   speakers?: { name: string; headshot: string; institution: string }[];
   link?: string;

@@ -6,6 +6,8 @@ import Notifications from "~/components/notifications";
 import { notifications } from "~/constants";
 import Welcome from "./welcome";
 import { useEffect } from "react";
+import { Outlet } from "react-router";
+import NavBar from "~/components/nav-bar";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -25,9 +27,8 @@ export default function Home() {
       {notifications.map((notification, index) => (
         <Notifications key={index} notification={notification} />
       ))}
-      {/* <NavBar /> */}
-      {/* <Outlet /> */}
-      <Welcome />
+      <NavBar />
+      <Outlet />
       <div style={{ flexGrow: 1 }} />
       <Footer />
     </div>

@@ -16,10 +16,15 @@ export function EventComponent({
         finalEvent && "mb-4"
       }`}
     >
-      <div className="flex">
+      <div className="flex flex-col gap-2">
         <h2 className="font-bold font-poppins text-lg text-center sm: text-start">
           {eventProps.title}
         </h2>
+        {eventProps.sponsor && (
+          <p className="font-poppins italic">
+            Sponsored by {eventProps.sponsor}
+          </p>
+        )}
       </div>
       <div className="flex items-center  gap-2 ">
         <svg

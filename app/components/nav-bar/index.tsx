@@ -4,7 +4,7 @@ const activeLinkStyle = "border-b-4 border-blue-500";
 const hoverLinkStyle = "hover:border-b-4 hover:border-blue-500";
 const routes = [
   { title: "Home", path: "/" },
-  { title: "Speaker bios", path: "/speaker-bios" },
+  { title: "Conference sponsors", path: "/conference-sponsors" },
 ];
 
 export default function NavBar() {

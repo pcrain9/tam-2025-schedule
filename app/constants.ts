@@ -266,6 +266,7 @@ export const accordionProps: AccordionProps[] = [
       {
         id: 12,
         title: "STEM Lens on History and Culture",
+        sponsor: "MuseWork and Texas Science & Natural History Muesum",
         location: "Salon 1",
         time: "11:00am-12:00pm",
         description:
@@ -486,7 +487,8 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 23,
-        title: "Speed Networking sponsored by PrimeSite Web",
+        title: "Speed Networking",
+        sponsor: "Primesite Web",
         location: "Salons 3 & 4",
         description:
           "Bring your business cards and your badge for a chance to meet fellow TAM Annual Meeting attendees. Through rapid-fire facilitated conversations, share what you’re doing, where you’re from, what you’re excited about, or what you want help with. Come ready to talk—the time goes quickly!",
@@ -540,6 +542,7 @@ export const accordionProps: AccordionProps[] = [
         id: 27,
         title:
           "Bridging the Gap from Idea to Reality: How the Briscoe Center for American History Solved Exhibit Challenges Using Practical Solutions",
+        sponsor: "Museum Arts",
         location: "Salon 5",
         speakers: [
           {
@@ -682,8 +685,8 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 32,
-        title:
-          "Texas and America's 250th Anniversary - Sponsored by The Bullock Museum",
+        title: "Texas and America's 250th Anniversary",
+        sponsor: "The Bullock Museum",
         location: "Salons 3 & 4",
         speakers: [
           {
@@ -1281,10 +1284,10 @@ export const accordionProps: AccordionProps[] = [
         time: "9:15am-12:15pm",
         speakers: [
           {
-            name: "Ellen Cone Busch",
+            name: "Stephen Kelly",
             institution: "Texas Historical Commission ",
             headshot:
-              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259794/ellen-cone-busch_gfduuh.png",
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1743555149/stephen_kelly_mkbiv9.jpg",
           },
         ],
         description:
