@@ -9,7 +9,7 @@ export default function ConferenceSponsors() {
       alt: "sponsor-2",
     },
     {
-      url: "https://res.cloudinary.com/demii3zjz/image/upload/v1743555878/sponsor-3_mjozi5.png",
+      url: "https://res.cloudinary.com/demii3zjz/image/upload/v1743557156/sponsor-3_ogbmtf.png",
       alt: "sponsor-3",
     },
   ];
