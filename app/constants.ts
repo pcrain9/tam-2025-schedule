@@ -530,10 +530,10 @@ export const accordionProps: AccordionProps[] = [
           "Join the Discovery Center Collective to explore a community-driven approach to education and outreach. Learn how we expanded summer camps to low-income schools, brought museum experiences directly to students, and hosted inclusive events for neurodiverse individuals. Discover strategies for fostering inclusivity, building partnerships, and meeting evolving needs. Engage in group brainstorming to generate solutions for your community.",
         speakers: [
           {
-            name: "Wendy Taylor",
+            name: "Daniella Ramos",
             institution: "Don Harrington Discovery Center",
             headshot:
-              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/wendy-taylor_ramysx.jpg",
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1743962813/Daniella_Ramos_DHDC_iqndwj.jpg",
           },
         ],
         time: "3:30pm-4:00pm",
@@ -1021,10 +1021,10 @@ export const accordionProps: AccordionProps[] = [
         location: "Salon 1",
         speakers: [
           {
-            name: "Wendy Taylor",
+            name: "Daniella Ramos",
             institution: "Don Harrington Discovery Center",
             headshot:
-              "https://res.cloudinary.com/demii3zjz/image/upload/v1742259776/wendy-taylor_ramysx.jpg",
+              "https://res.cloudinary.com/demii3zjz/image/upload/v1743962813/Daniella_Ramos_DHDC_iqndwj.jpg",
           },
         ],
         description:
