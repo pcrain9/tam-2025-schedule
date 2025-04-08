@@ -1279,7 +1279,6 @@ export const accordionProps: AccordionProps[] = [
         id: 5,
         title:
           "Don't Just Prepare for the Last War: Informed Emergency Preparedness",
-        link: "https://www.texasmuseums.org/products/tam-2025-workshop-add-on-don't-just-prepare-for-the-last-war",
         location: "Salon 6",
         time: "9:15am-12:15pm",
         speakers: [
