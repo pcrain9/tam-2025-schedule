@@ -1,0 +1,11 @@
+.cancelled{position: absolute;
+font-size: 120px;
+rotate: 45deg;
+margin-top: 167px;
+margin-inline-start:322px;
+color:red;
+@media(max-width:768px){
+font-size:72px;
+margin-top: 135px;
+margin-inline-start:0;
+}}

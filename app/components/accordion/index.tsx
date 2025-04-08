@@ -73,6 +73,7 @@ export function Accordion({
           <EventComponent
             key={event.id}
             eventProps={event}
+            accordionOpen={content}
             finalEvent={index === accordionProps.events.length - 1}
           />
         ))}

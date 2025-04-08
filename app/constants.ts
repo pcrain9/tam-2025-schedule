@@ -1292,6 +1292,7 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Emergency preparedness is as much about understanding the risks a museum faces and mitigating those risks as it is about gathering resources to recover from their impacts.  Using risk assessment and after-action review tools, online resources, and active mitigation steps, museums can target their emergency preparedness efforts and resources effectively amid changing staff, climate, and demographics.  THC historic sites speakers will present experiences with some of the most common emergencies with lessons learned, and basic long- and short-range preparedness steps.  This will focus on medical emergencies, grassland fires, and severe weather events.",
+        cancelled: true,
       },
       {
         id: 6,

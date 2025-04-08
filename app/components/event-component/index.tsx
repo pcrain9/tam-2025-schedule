@@ -1,4 +1,5 @@
 import type { EventType } from "~/types";
+import Cancelled from "../cancelled";
 import locationIcon from "app/assets/icons/icons8-location-24.png";
 import linkIcon from "app/assets/icons/link.png";
 import Headshot from "../headshot";
@@ -6,9 +7,11 @@ import Headshot from "../headshot";
 export function EventComponent({
   eventProps,
   finalEvent,
+  accordionOpen,
 }: {
   eventProps: EventType;
   finalEvent: boolean;
+  accordionOpen: boolean;
 }) {
   return (
     <div
@@ -16,6 +19,7 @@ export function EventComponent({
         finalEvent && "mb-4"
       }`}
     >
+      {eventProps.cancelled && accordionOpen && <Cancelled />}
       <div className="flex flex-col gap-2">
         <h2 className="font-bold font-poppins text-lg text-center sm: text-start">
           {eventProps.title}

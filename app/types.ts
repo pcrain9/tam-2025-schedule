@@ -14,4 +14,5 @@ export type EventType = {
   link?: string;
   description?: string;
   location?: string;
+  cancelled?: boolean;
 };
