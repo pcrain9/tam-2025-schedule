@@ -3,6 +3,7 @@ import Cancelled from "../cancelled";
 import locationIcon from "app/assets/icons/icons8-location-24.png";
 import linkIcon from "app/assets/icons/link.png";
 import Headshot from "../headshot";
+import OutboundLink from "../outbound-link";
 
 export function EventComponent({
   eventProps,
@@ -50,6 +51,18 @@ export function EventComponent({
         <div className="flex items-center gap-2">
           <img src={locationIcon} className="h-[14px] w-[12px]" />
           <p className="font-poppins">{eventProps.location}</p>
+        </div>
+      )}
+      {eventProps.slides && (
+        <div className="flex gap-2">
+          {eventProps.slides.map((slide) => (
+            <OutboundLink
+              link={slide}
+              index={-1}
+              key={slide.href}
+              showDivider={false}
+            />
+          ))}
         </div>
       )}
       {eventProps.link && (

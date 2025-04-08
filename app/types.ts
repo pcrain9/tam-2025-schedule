@@ -15,4 +15,5 @@ export type EventType = {
   description?: string;
   location?: string;
   cancelled?: boolean;
+  slides?: { title: string; href: string }[];
 };

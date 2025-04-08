@@ -1,5 +1,5 @@
 import type { AccordionProps } from "./types";
-
+const LINK_TITLE = "Click here for presentation slides";
 export const notifications = [
   "All programming takes place at the AT&T Hotel and Conference Center - Zlotnik Ballroom unless otherwise noted!",
   // "another notification",
@@ -88,6 +88,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259790/steven-baird_xhg3sk.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1fzZx4mNq5ib4ht7-VwJ4zBIsbzk0ygkx/edit?usp=sharing&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 5,
@@ -141,6 +147,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259791/shelby-curtis_dtoibu.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1QY8K3Wt_CzloX9LoevSUk1aGnMNmcNHx/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 7,
@@ -175,6 +187,16 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259775/michael-ables_y6temf.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1ZtgPzO6OX_ca3UDEzwFxeJnWydL1IGlX/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1nlCLUuJVifaCVJ_C-Wl9TbFx-ZqZwz4n/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 8,
@@ -203,6 +225,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "This session explores mundane programs like Docusign, practical programs like CatalogIt, and magnificent technology like the Omni Digital Dome. Come hear about three different institutions' experiences with very different technology. How can technology help your museum improve its operations or expand your visitor experiences?",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1X96LnR8GG8q95r_w1KXxuqX5z2fnnIWmLLuk-Vu3-xQ/edit?usp=sharing",
+        //   },
+        // ],
       },
       { id: 9, title: "Break", time: "10:45am-11:00am" },
       {
@@ -291,6 +319,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/morgan-oldham_wwu0bi.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/16bvS-jRKNxYysTRsBkiEI4OCRXRLTyNl/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 13,
@@ -326,6 +360,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259787/nina-murrell_d2ipmj.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1SJ5vF20kpkt8NuS_JqqfO1q6jftptrkB/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 14,
@@ -365,7 +405,8 @@ export const accordionProps: AccordionProps[] = [
       },
       {
         id: 16,
-        title: "Lunch and Keynote",
+        title:
+          "Beyond the Numbers: Turning Data into Strategic Action for the Arts",
         location: "Salons 3 & 4",
         time: "12:15pm-1:00pm",
         description:
@@ -376,6 +417,12 @@ export const accordionProps: AccordionProps[] = [
             institution: "SMU DataArts",
             headshot:
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259783/Jen-Benoit-Bryant_qkkrsy.jpg",
+          },
+        ],
+        slides: [
+          {
+            title: LINK_TITLE,
+            href: "https://assets.noviams.com/novi-file-uploads/tam/2025_Texas_Association_of_Museum_Final_pptx.pdf",
           },
         ],
       },
@@ -419,7 +466,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/kaleigh-reid_kh2ff0.jpg",
           },
         ],
-
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1aBrXJaVNYfzuA6F938VVrGGyedUK7r6_/edit?usp=sharing&rtpof=true&sd=true",
+        //   },
+        // ],
         description:
           "Volunteers are an integral part of museums, yet volunteer issues are rarely discussed at conferences. Session attendees will examine real-world examples (including questions about firing a volunteer and grappling with federal labor regulations) and identify the best resources available to them. We will then facilitate a guided conversation in small groups to cross-pollinate ideas so that attendees can begin to outline volunteer best practices for their museums.",
         time: "1:15pm-2:15pm",
@@ -463,6 +515,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "This panel will acquaint participants with the historical meta narrative of Austin history, which has been narrow and often exclusionary, and then will share the ways the included sites are challenging that traditional narrative. Participants will walk away with tools and ideas to expand the narrative frameworks in their own communities.",
         time: "1:15pm-2:15pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1l22mIbcqnmdBeOgTIX3HXXi7vfCJOdd5IsqHt0XVnDg/edit?usp=sharing",
+        //   },
+        // ],
       },
       {
         id: 21,
@@ -479,6 +537,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Since the invention of photography, the methods used to take photographs have changed drastically. Identifying the processes used in photography can help date an image and determine vital information about the people, places, and events captured in the photograph. Additionally, identifying photographic processes will assist collections managers in preserving and caring for their photographic objects.",
         time: "1:15pm-2:15pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1FAjFW8zuMdF9aaNr8nqqDkwLVenRpSKn/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 22,
@@ -520,6 +584,12 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         time: "3:30pm-4:00pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1B0x6uV58WYiki0mxMsGrsExj86wM0bM1/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 26,
@@ -537,6 +607,12 @@ export const accordionProps: AccordionProps[] = [
           },
         ],
         time: "3:30pm-4:00pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1YZ1nZ0fJvFB9voeyGV4JxrNLtLpJulCA/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 27,
@@ -573,6 +649,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Through stewardship, scholarship, and outreach, the Briscoe Center for American History cultivates historical knowledge and fosters exploration of our nation’s past. As a small museum whose mission is to showcase historically significant collections, the Center utilizes rotating exhibits in a flexible gallery space to maximize its program, often with limited resources. This session will feature an open discussion between members of the Center’s exhibits team focusing on the approaches, challenges, and lessons learned from successful installations. In the context of the Center’s recent exhibits, the session will explore themes of practicality, resourcefulness, and collaboration to illuminate creative ways for small museums and archival institutions to display their unique collections to a wider audience.",
         time: "3:30pm-4:00pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1n2afq5NwViJx5egdGDlSsFfH_5-_O2mk/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 28,
@@ -659,6 +741,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Every museum has a gap in who they reach in their community and it can be overwhelming to come up with different ways to engage with your gap audiences. This session will look at ways the Log Cabin Village and the Fort Worth Museum of Science and History have developed programs with their gap communities in mind. ",
         time: "4:00pm-4:30pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1TqJNzPDFnCcWQYrrzSlVHyMw9wXravm5/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 31,
@@ -682,6 +770,12 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Collections insurance plays a crucial role in safeguarding your museum’s mission. In this informative session, we’ll explore the ins and outs of collections insurance, demystifying its purpose, coverage, and who needs it. Whether you’re a curator, museum director, registrar, board member, or collector, understanding collections insurance is essential for protecting your irreplaceable collection. Join us as we unravel the complexities of collections insurance and empower you to make informed decisions for your museum collection.",
         time: "4:00pm-4:30pm",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1AeXgT-6aC6Si7nNLCJkXKNB0k9zutK49/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 32,
@@ -794,6 +888,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Each fall, American Alliance of Museums and Wilkening Consulting partner to gather visitor data from Texas museums, with the Annual Survey of Museum Goers. The data collected reveal statewide, regional, and museum-specific trends, giving insight into museum visitor desires, and values. In this panel, participating Texas science, art, and history museum leaders share their experiences with the Survey, including process, methodology, analysis, and the practical application of museum data for strategic planning, board education, community outreach, and more.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1_Rvtf8WPut5OlS9D-RU21MvZd9FoDVD3/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 6,
@@ -822,6 +922,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "In 2024, for the first time, the Alamo hosted multiple free travel professional development programs for teachers to Texas Revolution sites and Mexico City. Educators gained new perspectives and enthusiasm that invigorated their teaching practice, engaging students in the historical content more vividly. Participants will consider offsite teacher education and how it may strengthen their professional network, grow their teacher audience, and address permanent or temporary space constraints.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/19_e59zKVFGLAIgNET64gRlPucctaWckY/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 7,
@@ -859,6 +965,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Join the Collections staff of the Perot Museum of Nature and Science and the Crow Museum of Asian Art to learn about moving collections under two very different circumstances.  One moved during a global pandemic, the other moved into a museum under construction.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1l1qF7f9lfSFcjs4g0gx21dSOJvSs_UTl/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 8,
@@ -867,6 +979,12 @@ export const accordionProps: AccordionProps[] = [
         location: "Salon 6",
         description:
           "What’s on everyone’s mind in the museum world? You tell us! In this interactive session, we’re tackling the most pressing topics submitted anonymously by TAM members—no question is off-limits. A moderator will guide the discussion, diving into the challenges, trends, and hot topics that matter most to you. Whether you’re here to listen, share insights, or get advice, come ready to talk and engage in a dynamic conversation shaped by your peers.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1cvt3P89SEafHm7NrVo3L-ylsvoLeB2woMrAjkcJsBCo/edit?usp=sharing",
+        //   },
+        // ],
       },
       {
         id: 9,
@@ -901,6 +1019,16 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Teresa Bonner will give an overview of the Vitality Arts Project for Art Museums initiative that helped art museums strategically reframe their relationships with older adults – to understand them as essential, competent, creative and contributing participants in the life of the museum – and to create Vitality Arts programs designed for them. Each museum developed art-making programs for older adults to address the growing awareness of ageism in our society and in recognition of the role that art museums can play in providing creative aging opportunities to the community. Paul Coffey will address how the Museum of Fine Arts, Houston and the Glassell School of Art achieved the ambitious goals of the Vitality Arts Project in collaboration with underserved communities of older adults in Houston, Texas. The project What I Know and When I Knew It is MFAH’s answer to Vitality Arts proposition.",
+        slides: [
+          {
+            title: "Click here for Teresa's presentation",
+            href: "https://assets.noviams.com/novi-file-uploads/tam/Bonner_-_TAM_4_2025.pdf",
+          },
+          {
+            title: "Click here for Paul's presentation",
+            href: "https://docs.google.com/presentation/d/1q53nT-gLJspy9DNLTrbF8ikMBoRuM8i2/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+          },
+        ],
       },
       {
         id: 12,
@@ -923,6 +1051,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Join IDEA (Inclusivity, Diversity, Equity, and Access) for a presentation from special guest speaker Tonya Veasey,  President and CEO of Open Channels Group+.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1Qwgz4bSin7w03uvb4vknkZuCKplWIu0m/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 14,
@@ -963,6 +1097,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Focusing on historic house museums with varying collections and visitor involvement, this talk looks at options for staff to encourage interest in their sites through programs and exhibits grounded in a reexamination of their objects. Based on current initiatives at art and history museums, we will discuss using collections as a starting place for dialogs that connect audiences with contemporary social and community interests. We hope to provide curators and interpreters with a new framework for looking at material culture by walking through examples using artifacts from the Texas Historical Commission’s Historic Sites.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1IVWw_RiqEk4MIbu_PoQZjPQtRLbO7dpi/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 16,
@@ -980,6 +1120,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Want to make sure your institution follows both the letter and the spirit of laws related to collections and exhibitions? Laura Fowler, from Fowler Law Firm, will discuss how to turn “best intentions” into best practices in ownership, use, and promotion of art and artifacts, sharing what to do before, not after, you discover an issue.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1xRj0SY7RVvilFkU6NVmvTcjYx7MHsiyc/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 17,
@@ -1011,6 +1157,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "When designing outdoor art that is meant for public interaction, what perspectives are important to consider? From playscapes to monumental bronze, how can we honor our heritage and serve our communities through the design process? This session explores two diverse projects—life-size mammoth sculptures at the Mayborn Museum and an outdoor children’s exhibit at Kreische Brewery & Monument Hill State Historic Sites, the interactivity and creativity involved, and what we didn’t realize we didn’t know!",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1pI5rTBx8pzgYBtnj3f-A4x9XuLxhq5-c/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       { id: 18, title: "Break", time: "2:15pm-2:30pm" },
       {
@@ -1029,6 +1181,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "In Feb/March of 2024, the largest wildfire in Texas history ripped through the Panhandle. Feeling helpless, Discovery Center staff identified ways we could think and act outside the box to be a present and helpful member of our community. DCC staff will share strategies for connection and support, from opening their doors to the public to hosting Smokey Bear’s 80th Birthday with our neighboring wildlife rescue. This session will identify ways museums can connect in unique ways with other organizations to support communities during and after loss.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1xWO9K5-GVA6s61Sg9ghw4rbaAyAOYCQQ/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 20,
@@ -1058,6 +1216,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "On university and college campuses, exhibits in non-museum spaces are not uncommon. Libraries, in particular, are expected to have dedicated exhibit spaces to showcase their collections. While the core mission of academic libraries revolves around access and research, they are also home to rare materials that are only sometimes found in typical museums. These exhibit spaces enhance the library's mission by providing context and insight into the institution's unique holdings",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/19_c2j-UIVj6xaNr5uY31sKE0onYG5EjN/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 21,
@@ -1093,6 +1257,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Every museum leader faces challenges that feel overwhelming—burnout, imposter syndrome, unexpected disasters, and more. How do we navigate these situations, stay in control, and lead effectively when our degrees didn’t prepare us for everything? In this session, we’ll share strategies to prioritize problems, manage crises without reaching burnout, and put difficult moments into perspective. Attendees will learn how to step back, maintain balance, and recognize their role as professionals equipped to handle tough situations with confidence. Join us to gain tools for managing yourself and your team through life’s most difficult moments.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/14au2zn6mmMSYFMWVvBIZ_68hNm6eTgfy/edit?usp=sharing&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 22,
@@ -1115,6 +1285,12 @@ export const accordionProps: AccordionProps[] = [
               "https://res.cloudinary.com/demii3zjz/image/upload/v1742259784/lindsay-hamm_bzkscy.jpg",
           },
         ],
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/12D1Rg6Em2Rf_YhlVXiPElrmg53rneBKK/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
         description:
           "In a perfect world, outdoor artworks would have detailed maintenance manuals full of instructions, photos and advice. In reality, many collections managers must don their detective hats to deduce the best means to maintain particular artworks. In this session, public art professionals will highlight recent maintenance projects which required creative thinking in finding information, determining when to consult outside experts, executing the task, and archiving projects. Topics discussed will include: working with incomplete or inaccessible documentation; assessing and adapting to physical issues; and communication challenges. The presenters will also share multiple pathways to success that were found or forged from these instances, and how such experiences can lead to better records, strong networks of diverse specialists, and longer lifetimes for public artworks.",
       },
@@ -1238,6 +1414,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Everything is science! Everything is art! Explore how you can incorporate a S.T.E.A.M. mindset into your facility using cross-curricular, multi-modal approaches to help connect all learners to your core subject matter. S.T.E.M. (Science, Technology, Engineering, and Math) has been a buzzword for some time and is often used to help justify field trips or get donors on board with an eye to workforce preparedness. Recently, an A for Art has been added to change the S.T.E.M. to S.T.E.A.M. but, rather than treating art as a science and vice versa, art is often used superficially to convey scientific concepts. Additionally, museums that do not deal directly with science or art as a core subject matter, may find it more difficult to make meaningful connections to S.T.E.A.M. in their programming and displays. Looking at subject matter in a cross-curricular, multi-modal way is fundamental for making all learners feel successful, creating equitable pathways for discovery and creating meaningful connections to content.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1ZtgPzO6OX_ca3UDEzwFxeJnWydL1IGlX/edit?usp=share_link&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 3,
@@ -1256,6 +1438,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "In today's competitive environment, museums must continuously innovate and adapt their fundraising, hiring and social enterprise strategies to ensure sustainable growth and success. This workshop will explore cutting-edge approaches to expanding social enterprise/branding, fundraising operations and hiring practices, focusing on practical examples, audience participation, and diverse perspectives. Attendees will learn how to effectively diversify their funding sources, leverage community partnerships, and implement best hiring practices and new technology-driven tools, implement board diversification strategies and new fundraising solutions and social enterprise opportunities. Guest panelists include; Teresa Heidt, Neiman Marcus; Catharine Recht, Frontiers of Flight Museum; and Allison Allen, GTN Consulting.",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1GA90NiZU-XOyDwEYuGGQnpZoFIIJlr5S/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 4,
@@ -1274,6 +1462,12 @@ export const accordionProps: AccordionProps[] = [
         ],
         description:
           "Cultural workers face a challenging lack of hands-on educational opportunities to learn the basics of preserving archival audiovisual materials. Our workshop addresses the growing need for media preservation skills among archivists, historians, curators, genealogists, and generally those who work with historic materials. In this 3 hour workshop, participants will learn how to identify common media formats, conduct preservation assessments, and digitize video formats. Attendees will become confident in their ability to identify and preserve analog film and video formats and gain the skills necessary to work with these materials when encountering them in the field. This workshop is hosted by Ari Negovschi Regalado, Technical Director of Texas Archive of the Moving Image. ",
+        // slides: [
+        //   {
+        //     title: LINK_TITLE,
+        //     href: "https://docs.google.com/presentation/d/1nXOflBFFL6mH0qG1wwO6Q8c7EvG_0wuB/edit?usp=sharing&ouid=107464759360653361630&rtpof=true&sd=true",
+        //   },
+        // ],
       },
       {
         id: 5,

@@ -1,13 +1,15 @@
 export default function OutboundLink({
   link,
   index,
+  showDivider = true,
 }: {
   link: { title: string; href: string };
   index: number;
+  showDivider?: boolean;
 }) {
   return (
     <>
-      {index === 0 && <span className="hidden sm:block">|</span>}
+      {index === 0 && showDivider && <span className="hidden sm:block">|</span>}
       <a
         href={link.href}
         rel="noopener noreferrer"
@@ -16,7 +18,7 @@ export default function OutboundLink({
       >
         {link.title}
       </a>
-      <span className="hidden sm:block">|</span>
+      {showDivider && <span className="hidden sm:block">|</span>}
     </>
   );
 }
