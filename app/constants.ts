@@ -1371,7 +1371,7 @@ export const accordionProps: AccordionProps[] = [
         description:
           "Join us at the Texas State Capitol to hear TAM's 50th Anniversary proclomation read. After, consider staying to visit your state representative at the Capitol for an opportunity to advocate for your museum and share the importance of cultural institutions in your community.",
         location: "Texas State Capitol",
-        time: "9:00am",
+        time: "11:00am",
       },
       {
         id: 1,

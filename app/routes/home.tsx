@@ -17,10 +17,12 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  // just in case announcements are needed
-  // useEffect(() => {
-  //   alert("this is just a test!");
-  // }, []);
+  // Announcement effect
+  useEffect(() => {
+    alert(
+      "Wednesday at 11am - Join us at the Texas State Capitol to hear TAM's 50th Anniversary Proclamation read."
+    );
+  }, []);
   return (
     <div className="flex flex-col gap-4 h-screen">
       <Hero />
