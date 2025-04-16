@@ -7,10 +7,7 @@ export default function Headshot({
 }) {
   return (
     <div className="flex flex-col items-center justify-center sm:justify-start gap-4 max-w-[200px] bg-[#CDB245]  px-4 pt-2 pb-4 shadow-md rounded">
-      <img
-        src={speaker.headshot}
-        className="h-[120px] w-auto rounded shadow-xl"
-      />
+      <p>note: headshots were removed</p>
       <div className="flex items-center gap-4 min-h-[100px] w-[155px]">
         <img className="h-[20px] w-[20px]" src={speakerIcon} />
         <p className="font-poppins">{speaker.name}</p>
